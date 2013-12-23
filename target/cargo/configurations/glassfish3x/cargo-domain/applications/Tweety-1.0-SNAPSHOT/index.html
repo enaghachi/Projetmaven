@@ -1,0 +1,47 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form to create a new resource</title>
+    </head>
+<!--<body>
+  <form action="resources/utilisateur/test" method="POST">
+  <label for="username">username</label>
+  <input name="username"/>
+  <br/>
+  <label for="password">password</label>
+  <input name="password"/>
+  <br/>
+  <label for="sexe">sexe</label>
+  <input name="sexe" />
+  <br/>
+  <label for="adresseemail">adresseemail</label>
+  <input name="adresseemail" />
+  <br/>
+  <input type="submit" value="Submit" />
+  </form>
+</body>-->
+<body>
+	<h1>JAX-RS @FormQuery Testing</h1>
+ 
+	<form action="resources/user/add" method="post">
+		<p>
+			username : <input type="text" name="username" />
+		</p>
+		<p>
+			password : <input type="text" name="password" />
+		</p>
+                <p>
+			sexe : <input type="text" name="sexe" />
+		</p>
+                <p>
+			adresseemail : <input type="text" name="adresseemail" />
+		</p>
+		<input type="submit" value="Add User" />
+	</form>
+ 
+</body>
+</html>
