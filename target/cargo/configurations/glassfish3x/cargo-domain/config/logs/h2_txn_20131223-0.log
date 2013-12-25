@@ -1,7 +1,0 @@
-txn[1003], 01:31:41.649, insert into utilisateur (email, sexe, date_inscription, username, password) values (?,?,?,?,?) 
-txn[1003], 01:31:41.665, Binding Insert [utilisateur]  set[email=test2@gmail.com, sexe=m, date_inscription=Mon Dec 23 01:31:35 CET 2013, username=test, password=test, ] 
-txn[1003], 01:31:41.672, Inserted [Utilisateur] [test2@gmail.com] 
-txn[1004], 01:33:47.792, select t0.email c0, t0.sexe c1, t0.date_inscription c2, t0.username c3, t0.password c4  from utilisateur t0 
-txn[1004], 01:33:47.836, FindMany type[Utilisateur] origin[BJLTUw.0FzGH.BvQztc] exeMicros[43669] rows[1] name[] predicates[] bind[] 
-txn[1005], 01:33:48.374, select t0.email c0         , t1.id c1, t1.label c2, t1.datepublication c3, t1.Tweet_userID c4  from utilisateur t0 left outer join tweet t1 on t1.Tweet_userID = t0.email  where t0.email = ?    order by t0.email 
-txn[1005], 01:33:48.407, FindMany mode[+lazy] type[Utilisateur] origin[BJLTUw.0FzGH.BvQztc] load[path:TweetList batch:1 actual:1] exeMicros[32752] rows[1:1] name[] predicates[] bind[test2@gmail.com] 

@@ -14,6 +14,7 @@ import java.util.List;
 import javax.naming.InitialContext;
 import javax.persistence.EntityManager;
 import javax.transaction.UserTransaction;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -33,14 +34,14 @@ public class UtilisateurResource {
     
     @POST
     @Path("/add")
-    public void adduser(@FormParam("username") String username,
-		@FormParam("password") String password,
-                @FormParam("sexe") String sexe,
-                @FormParam("adresseemail") String adresseemail) {
- 
-           
-          Utilisateur user = new Utilisateur(username,password,sexe,adresseemail,new Date());
+    @Consumes({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+    public Utilisateur adduser(Utilisateur user) {
+        
+          //Utilisateur user = new Utilisateur(username,password,sexe,email,new Date());
           Ebean.save(user);
+          System.out.println("creating user");
+          return user;
     }
     
     

@@ -1,4 +1,4 @@
-/* AUTOMATICALLY GENERATED ON Mon Dec 23 01:20:36 CET 2013*/
+/* AUTOMATICALLY GENERATED ON Wed Dec 25 01:17:06 CET 2013*/
 /* DO NOT EDIT */
 
 grant {
@@ -9,27 +9,27 @@ grant {
   permission javax.security.jacc.WebUserDataPermission "/theme/com/*";
   permission javax.security.jacc.WebUserDataPermission "/theme/META-INF/*";
   permission javax.security.jacc.WebUserDataPermission "/theme/org/*";
-  permission javax.security.jacc.WebUserDataPermission "/*:/resource/*:/theme/com/*:/theme/META-INF/*:/theme/org/*";
+  permission javax.security.jacc.WebUserDataPermission "/*:/resource/*:/theme/META-INF/*:/theme/com/*:/theme/org/*";
   permission javax.security.jacc.WebUserDataPermission "/resource/*";
 };
 
 grant      principal org.glassfish.security.common.PrincipalImpl "admin" {
-  permission javax.security.jacc.WebResourcePermission "/*:/resource/*:/theme/com/*:/theme/META-INF/*:/theme/org/*";
   permission javax.security.jacc.WebRoleRefPermission "default", "admin";
   permission javax.security.jacc.WebRoleRefPermission "FacesServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "jsp", "admin";
   permission javax.security.jacc.WebRoleRefPermission "ThemeServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "DownloadServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "", "admin";
+  permission javax.security.jacc.WebResourcePermission "/*:/resource/*:/theme/META-INF/*:/theme/com/*:/theme/org/*";
 };
 
 grant      principal org.glassfish.security.common.Group "asadmin" {
-  permission javax.security.jacc.WebResourcePermission "/*:/resource/*:/theme/com/*:/theme/META-INF/*:/theme/org/*";
   permission javax.security.jacc.WebRoleRefPermission "default", "admin";
   permission javax.security.jacc.WebRoleRefPermission "FacesServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "jsp", "admin";
   permission javax.security.jacc.WebRoleRefPermission "ThemeServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "DownloadServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "", "admin";
+  permission javax.security.jacc.WebResourcePermission "/*:/resource/*:/theme/META-INF/*:/theme/com/*:/theme/org/*";
 };
 
