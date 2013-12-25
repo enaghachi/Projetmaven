@@ -4,30 +4,35 @@
         <title>Form to create a new resource</title>
     </head>
     <body>
-            <h1>JAX-RS @FormQuery Testing</h1>
+            <h1>Mini Tweeter</h1>
             <div id="resultat">
                <!-- Nous allons afficher un retour en jQuery au visiteur -->
             </div>
-
+            
+            <h2>Nouveau sur Twitter ? Inscrivez-vous</h2>
+            
             <form id="inscription"  method="post">
                     <p>
                             username : <input type="text" name="username" id="username"/>
                     </p>
                     <p>
-                            password : <input type="text" name="password" id="password"/>
+                            password : <input type="password" name="password" id="password"/>
                     </p>
+
                     <p>
-                            sexe : <input type="text" name="sexe" id="sexe"/>
+                            sexe : <select name ="sexe" id="sexe">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option></select><br>
                     </p>
+                    
                     <p>
-                            email : <input type="text" name="email"  id="email"/>
+                            email : <input type="email" name="email"  id="email"/>
                     </p>
 <!--                    <input type="submit" id="submit" value=" add user" />-->
-                    <button id="submit">add user</button>
+                    <button id="submit">Inscrivez-vous</button>
             </form>
-           <!--<script src="js/jquery-1.9.1.js"></script>-->
-         <script src="js/jquery-1.7.1.min.js"></script>
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+
+        <script src="js/jquery-1.7.1.min.js"></script>
         <script src="js/main.js"></script>
            
 

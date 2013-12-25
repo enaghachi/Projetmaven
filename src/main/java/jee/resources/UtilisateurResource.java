@@ -4,6 +4,7 @@
  */
 package jee.resources;
 
+import jee.MD5Password;
 import com.avaje.ebean.Ebean;
 import com.avaje.ebean.SqlUpdate;
 import com.avaje.ebean.Transaction;
@@ -37,11 +38,11 @@ public class UtilisateurResource {
     @Consumes({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public Utilisateur adduser(Utilisateur user) {
-        
-          //Utilisateur user = new Utilisateur(username,password,sexe,email,new Date());
-          Ebean.save(user);
+         String passwordhashe = MD5Password.getEncodedPassword(user.getPassword());
+          Utilisateur saveuser = new Utilisateur(user.getUsername(),passwordhashe,user.getSexe(),user.getEmail(),new Date());
+          Ebean.save(saveuser);
           System.out.println("creating user");
-          return user;
+          return saveuser;
     }
     
     

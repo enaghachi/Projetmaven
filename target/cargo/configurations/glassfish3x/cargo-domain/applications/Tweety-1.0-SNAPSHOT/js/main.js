@@ -17,10 +17,15 @@ function adduser() {
                 dataType: "json",
                 data: formToJSON(),
                 success: function(data, textStatus, jqXHR){
-                        alert('Wine created successfully');
+                        alert('user created successfully');
+                        
+                        $("#resultat").append('vous êtes bien inscris, entrez votre adresse email et mot de passe pour se connecter </br>'+
+                        '<p> email : <input type="email" name="email"  id="email"/></p>'+
+                        '<p> password : <input type="password" name="password" id="password"/></p>'+
+                        '<button id="Login"> Login </button>')
                 },
                 error: function(jqXHR, textStatus, errorThrown){
-                        alert('addWine error: ' + textStatus);
+                        alert('addUser error: ' + textStatus);
                 }
         });      
 }
