@@ -7,6 +7,35 @@ $('#submit').click(function() {
         return false;
 });
 
+$('#login').click(function(){
+    alert("tata");
+    if ($('#usernameconnct').val() != '' && $('#passwordconnect').val() != ''){
+        alert($('#usernameconnct').val());
+        alert($('#passwordconnect').val());
+        
+        login($('#usernameconnct').val(),$('#passwordconnect').val());
+    }  
+        return false;
+});
+
+function login(username,password){
+        console.log('username'+username);
+        alert('username'+username);
+        $.ajax({
+                type: 'GET',
+                url: rootURL + '/' + username+'/'+password,
+                dataType: "json",
+                success: function(data){
+                    if(data==null){
+                         $("#resultat").append('</br><h4>oups! username ou mot de passe incorrecte! Essaye encore une fois </h4> </br>')
+                    }else{
+                        alert('user connected successfully');
+                    }
+                },
+        });      
+        
+}
+
 function adduser() {
         console.log('addUser');
         alert('rootURL'+$("#username").val());
@@ -19,10 +48,7 @@ function adduser() {
                 success: function(data, textStatus, jqXHR){
                         alert('user created successfully');
                         
-                        $("#resultat").append('vous êtes bien inscris, entrez votre adresse email et mot de passe pour se connecter </br>'+
-                        '<p> email : <input type="email" name="email"  id="email"/></p>'+
-                        '<p> password : <input type="password" name="password" id="password"/></p>'+
-                        '<button id="Login"> Login </button>')
+                        $("#resultat").append('</br> Vous etes bien inscris,<h4> Entrez votre adresse email et votre mot de passe pour se connecter </h4> </br>')
                 },
                 error: function(jqXHR, textStatus, errorThrown){
                         alert('addUser error: ' + textStatus);

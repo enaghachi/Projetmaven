@@ -3,6 +3,9 @@
  * and open the template in the editor.
  */
 package jee.model;
+import com.avaje.ebean.validation.Email;
+import com.google.common.collect.Constraints;
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.Date;
 import java.util.List;
@@ -10,23 +13,18 @@ import javax.persistence.*;
 
 @Entity
 public class Utilisateur{
-	
-	@Id
+        @Id
+	private String username;
+        
 	private String email;
+        
+        private String password;
 	
 	private String sexe;
-	
-	
-    @Temporal(javax.persistence.TemporalType.DATE)
+        
+	// TIMESTAMP, contrairement à DATE, stocke l'heure en plus du jour/mois/année
+        @Temporal(javax.persistence.TemporalType.TIMESTAMP)
 	private Date date_inscription ;
-	
-//	@Constraints.Required
-//    @Constraints.MaxLength(10)
-         private String username;
-	
-//	@Constraints.MinLength(5)
-//	@Constraints.Required
-	private String password;
 	
 	@OneToMany(mappedBy="user")  //un User pour plusieurs tweet, "mappedBy" qui référence le nom de l'attribut User dans la classe Event
 	private List<Tweet> TweetList;

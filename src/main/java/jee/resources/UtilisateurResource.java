@@ -23,6 +23,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.FormParam;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
 
 /**
@@ -48,12 +49,25 @@ public class UtilisateurResource {
     
     @GET @Path("/get")
     @Produces( MediaType.APPLICATION_JSON )
-    public List<Utilisateur> getuser(){
+    public List<Utilisateur> getusers(){
         List<Utilisateur> users = Ebean.find(Utilisateur.class).findList();
         return users;
     }
     
-
+    @GET @Path("{username}/{password}")
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+        public Utilisateur login(@PathParam("username") String username, @PathParam("password") String password) {
+            
+                System.out.println("findById " + username);
+                String passwordhashe = MD5Password.getEncodedPassword(password);
+                Utilisateur user = Ebean.find(Utilisateur.class).where()
+               .eq("username", username)
+               .eq("password", passwordhashe).findUnique();
+                
+       return user;
+        }
+        
+   
 }
 
     
