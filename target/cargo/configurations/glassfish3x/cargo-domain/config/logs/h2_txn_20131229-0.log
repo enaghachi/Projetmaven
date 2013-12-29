@@ -1,0 +1,11 @@
+txn[1003], 15:27:28.641, insert into utilisateur (username, email, password, sexe, date_inscription) values (?,?,?,?,?) 
+txn[1003], 15:27:28.656, Binding Insert [utilisateur]  set[username=momo, email=simo_star02@hotmail.fr, password=00fb5e49ffaf2b865aa11a660c2f0734, sexe=male, date_inscription=Sun Dec 29 15:27:19 CET 2013, ] 
+txn[1003], 15:27:28.663, Inserted [Utilisateur] [momo] 
+txn[1004], 15:29:34.715, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  and t0.password = ?  
+txn[1004], 15:29:34.750, FindMany type[Utilisateur] origin[Dzt5KR.0FzGH.BvQztc] exeMicros[34747] rows[1] name[] predicates[t0.username = ?  and t0.password = ? ] bind[momo, 00fb5e49ffaf2b865aa11a660c2f0734] 
+txn[1005], 15:29:34.809, select t0.username c0         , t1.id c1, t1.label c2, t1.datepublication c3, t1.Tweet_userID c4  from utilisateur t0 left outer join tweet t1 on t1.Tweet_userID = t0.username  where t0.username = ?    order by t0.username 
+txn[1005], 15:29:34.835, FindMany mode[+lazy] type[Utilisateur] origin[Dzt5KR.0FzGH.BvQztc] load[path:TweetList batch:1 actual:1] exeMicros[26040] rows[1:1] name[] predicates[] bind[momo] 
+txn[1006], 15:30:23.598, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  and t0.password = ?  
+txn[1006], 15:30:23.598, FindMany type[Utilisateur] origin[Dzt5KR.0FzGH.BvQztc] exeMicros[390] rows[1] name[] predicates[t0.username = ?  and t0.password = ? ] bind[momo, 00fb5e49ffaf2b865aa11a660c2f0734] 
+txn[1007], 15:30:23.599, select t0.username c0         , t1.id c1, t1.label c2, t1.datepublication c3, t1.Tweet_userID c4  from utilisateur t0 left outer join tweet t1 on t1.Tweet_userID = t0.username  where t0.username = ?    order by t0.username 
+txn[1007], 15:30:23.600, FindMany mode[+lazy] type[Utilisateur] origin[Dzt5KR.0FzGH.BvQztc] load[path:TweetList batch:1 actual:1] exeMicros[412] rows[1:1] name[] predicates[] bind[momo] 
