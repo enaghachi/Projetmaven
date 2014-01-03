@@ -1,11 +1,11 @@
-/* AUTOMATICALLY GENERATED ON Sun Dec 29 15:25:00 CET 2013*/
+/* AUTOMATICALLY GENERATED ON Fri Jan 03 19:25:59 CET 2014*/
 /* DO NOT EDIT */
 
 grant {
   permission javax.security.jacc.WebUserDataPermission "/theme/com/*";
   permission javax.security.jacc.WebUserDataPermission "/theme/META-INF/*";
   permission javax.security.jacc.WebUserDataPermission "/theme/org/*";
-  permission javax.security.jacc.WebUserDataPermission "/*:/resource/*:/theme/com/*:/theme/META-INF/*:/theme/org/*";
+  permission javax.security.jacc.WebUserDataPermission "/*:/resource/*:/theme/META-INF/*:/theme/com/*:/theme/org/*";
   permission javax.security.jacc.WebUserDataPermission "/resource/*";
   permission javax.security.jacc.WebResourcePermission "/theme/META-INF/*";
   permission javax.security.jacc.WebResourcePermission "/theme/org/*";
@@ -20,7 +20,7 @@ grant      principal org.glassfish.security.common.PrincipalImpl "admin" {
   permission javax.security.jacc.WebRoleRefPermission "ThemeServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "DownloadServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "", "admin";
-  permission javax.security.jacc.WebResourcePermission "/*:/resource/*:/theme/com/*:/theme/META-INF/*:/theme/org/*";
+  permission javax.security.jacc.WebResourcePermission "/*:/resource/*:/theme/META-INF/*:/theme/com/*:/theme/org/*";
 };
 
 grant      principal org.glassfish.security.common.Group "asadmin" {
@@ -30,6 +30,6 @@ grant      principal org.glassfish.security.common.Group "asadmin" {
   permission javax.security.jacc.WebRoleRefPermission "ThemeServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "DownloadServlet", "admin";
   permission javax.security.jacc.WebRoleRefPermission "", "admin";
-  permission javax.security.jacc.WebResourcePermission "/*:/resource/*:/theme/com/*:/theme/META-INF/*:/theme/org/*";
+  permission javax.security.jacc.WebResourcePermission "/*:/resource/*:/theme/META-INF/*:/theme/com/*:/theme/org/*";
 };
 

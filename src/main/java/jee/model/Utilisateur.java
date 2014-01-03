@@ -12,7 +12,8 @@ import java.util.List;
 import javax.persistence.*;
 
 @Entity
-public class Utilisateur{
+public class Utilisateur implements Serializable{
+         private static final long serialVersionUID = 1L;
         @Id
 	private String username;
         

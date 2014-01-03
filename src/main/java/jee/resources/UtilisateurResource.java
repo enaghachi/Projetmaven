@@ -76,8 +76,8 @@ public class UtilisateurResource {
                                                                     .eq("username", username)
                                                                     .eq("password", passwordhashe).findUnique();
                     if(user != null){
-                    NewCookie cookie = new NewCookie("authCookie", String.valueOf(user.getUsername()), "/", "localhost", "", 1000, false);
-                    return Response.ok(user, MediaType.APPLICATION_JSON).status(Status.OK).cookie(cookie).build();
+                        NewCookie cookie = new NewCookie("authCookie",user.getUsername(), "/", "localhost", "", 1000, false);
+                        return Response.ok(user, MediaType.APPLICATION_JSON).status(Status.OK).cookie(cookie).build();
                     }else{
                         return Response.status(new Status(Status.USER_NO_ACCOUNT)).build();
                     }

@@ -1,16 +1,18 @@
 // The root URL for the RESTful services
-var rootURL = "http://localhost:9000/Tweety/resources/user";
+var rootURL = "http://localhost:9000/Tweety/resources";
 
 //inscription d’un user 
 function bindEventsOnReady() {
 
 $('#adduser').click(function() {
         adduser();
+        return false;
 });
 
 //connection
 $('#login').click(function(){
    connection();
+  return false;
 });
 }
 
@@ -25,8 +27,8 @@ function connection() {
         
         login($('#usernameconnct').val(),$('#passwordconnect').val());
         
-    }  
-        return false;
+    }
+    return false;
 }
 
 
@@ -44,11 +46,12 @@ function logout(){
     console.log('deconnection');
     $.ajax({
          type: 'GET',
-         url: rootURL + '/logout',
+         url: rootURL +'/user/logout',
          dataType: "json",
          success: function(data){
                     alert ("vous etes deconnecté");
                     window.location.href="index.html";
+                    $('#resultat').html('</br><h4> vous étes déconnecté(e) </h4>');
                 },
          error: function(jqXHR, textStatus, errorThrown){
              alert ("problème de deconnection");
@@ -62,21 +65,25 @@ function login(username,password){
         alert('username'+username);
         $.ajax({
                 type: 'GET',
-                url: rootURL + '/' + username+'/'+password,
-                dataType: "json",
+                url: rootURL+ '/user' + '/' + username+'/'+password,
+                dataType: "json", // Le type de données à recevoir du service, ici, du json.
                 success: function(data){
                     alert(data.toString());
                         alert('user connected successfully');
                         $('#content').html('<h2> Bienvenue '+username+' dans votre espace personnel<h2> <button id="Logout" > Logout </button>\n\
                                             <div id="writeTweet">\
-                                            <h4> Ecrire un Tweet </h4>\n\
-                                            <textarea cols="50" rows="5" name="areaTweet" placeholder="Ecrire un nouveau Tweet" id="areaTweet"></textarea>\n\
-                                            <button id="publier"> publier </button>\n\
+                                                <h4> Ecrire un Tweet </h4>\n\\n\
+                                                <form id="form-addTweet" method="post">\
+                                                <textarea cols="50" rows="5" placeholder="Ecrire un nouveau Tweet" id="areaTweet" name="areaTweet"></textarea>\
+                                                <input type="hidden" id="usernameonline" name="usernameonline" value='+username+'>\n\
+                                                <button id="publier"> publier </button>\n\\n\
+                                                </form>\
                                             </di>\
                                             <div id="displayTweet">\n\
                                             </div>');
 
-                        bindLogoutEvent();                                       
+                        bindLogoutEvent();    
+                        bindaddTweetEvent();
                     },
                
                  error: function(jqXHR, textStatus, errorThrown){
@@ -97,10 +104,10 @@ function adduser() {
         console.log('addUser');
         alert('rootURL'+$("#username").val());
         $.ajax({
-                type: 'POST',
+                type: 'POST',  // Le type de la requête HTTP, ici devenu POST
                 contentType: 'application/json',
-                url: rootURL+'/add',
-                dataType: "json",
+                url: rootURL+'/user/add',
+                dataType: "json",  // Le type de données à recevoir, ici, du json.
                 data: formToJSON(),
                 success: function(data, textStatus, jqXHR){
                         alert('user created successfully');
@@ -111,6 +118,37 @@ function adduser() {
                         alert('addUser error: ' + textStatus);
                 }
         });      
+}
+//-------------------------------------Tweet------------------------------------------
+//deconnection
+function bindaddTweetEvent() {
+$('#publier').click(function(){
+    alert("addTweet");
+    addTweet();
+    return false;
+ });
+}
+//fonction addTweet
+function addTweet(){
+    console.log('addUser');
+    alert('Tweet'+$("#areaTweet").val());
+    alert('username'+$('#usernameonline').val());
+    var data = $("#form-addTweet").serializeArray();
+    $.ajax({
+                type: 'POST',
+                //contentType:'application/json',
+                url: rootURL + '/Tweet/add',
+                dataType: "json",  // Le type de données à recevoir de service, ici, du json.
+                data:data, //FormaddtweetToJSON(),
+                success : function(code_html, statut){
+                    alert("tweet ajouté");
+                },
+                error : function(resultat, statut, erreur){
+                    alert("tweet non ajouté");
+                    alert("status"+resultat.status); //affiche le code d erreur
+                    
+                }
+            });
 }
 
 // Helper function to serialize all the form fields into a JSON string
@@ -123,7 +161,13 @@ function formToJSON() {
                 "date_inscription": new Date()
                 });
 }
- 
+//function FormaddtweetToJSON() {
+//     return JSON.stringify({
+//                "Taguser": $('#usernameonline').val(), 
+//                "label": $('#areaTweet').val()
+//            });
+//        }
+        
 $().ready(function(){
  bindEventsOnReady();
 });

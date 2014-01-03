@@ -8,9 +8,11 @@ create table abonnement (
 
 create table tweet (
   id                        bigint not null,
-  label                     varchar(255),
-  Tweet_userID              varchar(255),
   datepublication           timestamp,
+  label                     varchar(255),
+  sujet                     varchar(255),
+  taguser                   varchar(255),
+  Tweet_userID              varchar(255),
   constraint pk_tweet primary key (id))
 ;
 
