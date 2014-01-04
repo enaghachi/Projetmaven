@@ -11,6 +11,7 @@ import com.avaje.ebean.SqlUpdate;
 import com.avaje.ebean.Transaction;
 import com.avaje.ebean.annotation.Transactional;
 import java.security.NoSuchAlgorithmException;
+import static java.sql.DriverManager.println;
 import jee.model.Utilisateur;
 import java.util.Date;
 import java.util.List;
@@ -47,6 +48,7 @@ public class UtilisateurResource {
     @Consumes({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public Utilisateur adduser(Utilisateur user) {
+        System.out.print(user);
          String passwordhashe = MD5Password.getEncodedPassword(user.getPassword());
           Utilisateur saveuser = new Utilisateur(user.getUsername(),passwordhashe,user.getSexe(),user.getEmail(),new Date());
           Ebean.save(saveuser);
@@ -66,7 +68,7 @@ public class UtilisateurResource {
     @GET @Path("{username}/{password}")
     @Produces(MediaType.APPLICATION_JSON)
         public Response login(@CookieParam("authCookie") Cookie authenciateCookie,@PathParam("username") String username, @PathParam("password") String password) throws NoSuchAlgorithmException {
-            
+           
             if (authenciateCookie != null) {
              return Response.status(new Status(Status.USER_ONLINE)).build();
             }
@@ -91,7 +93,8 @@ public class UtilisateurResource {
     return Response.status(new Status(Status.OK)).cookie(cookie).build();
   }
         
-    
+
+
         
    
 }

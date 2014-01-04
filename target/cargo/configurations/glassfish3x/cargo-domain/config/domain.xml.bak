@@ -201,7 +201,7 @@
         <thread-pool name="http-thread-pool"></thread-pool>
         <thread-pool name="thread-pool-1" max-thread-pool-size="200"></thread-pool>
       </thread-pools>
-      <system-property name="com.sun.aas.javaRoot" value="C:\Program Files\Java\jdk1.7.0_40"></system-property>
+      <system-property name="com.sun.aas.javaRoot" value="D:\java"></system-property>
       <monitoring-service>
         <module-monitoring-levels></module-monitoring-levels>
       </monitoring-service>
@@ -401,7 +401,7 @@
       <system-property name="JMX_SYSTEM_CONNECTOR_PORT" value="28686"></system-property>
       <system-property name="OSGI_SHELL_TELNET_PORT" value="26666"></system-property>
       <system-property name="JAVA_DEBUGGER_PORT" value="29009"></system-property>
-      <system-property name="com.sun.aas.javaRoot" value="C:\Program Files\Java\jdk1.7.0_40"></system-property>
+      <system-property name="com.sun.aas.javaRoot" value="D:\java"></system-property>
       <monitoring-service>
         <module-monitoring-levels></module-monitoring-levels>
       </monitoring-service>
@@ -409,9 +409,9 @@
     </config>
   </configs>
   <property name="administrative.domain.name" value="cargo-domain"></property>
-  <secure-admin special-admin-indicator="c8245368-d487-4e02-b786-ac4f6288bfd1">
-    <secure-admin-principal dn="CN=simo-PC,OU=GlassFish,O=Oracle Corporation,L=Santa Clara,ST=California,C=US"></secure-admin-principal>
-    <secure-admin-principal dn="CN=simo-PC-instance,OU=GlassFish,O=Oracle Corporation,L=Santa Clara,ST=California,C=US"></secure-admin-principal>
+  <secure-admin special-admin-indicator="287f9e70-e313-445d-a97b-1ea19bdfe75c">
+    <secure-admin-principal dn="CN=KLEROF3LKK0HZQG,OU=GlassFish,O=Oracle Corporation,L=Santa Clara,ST=California,C=US"></secure-admin-principal>
+    <secure-admin-principal dn="CN=KLEROF3LKK0HZQG-instance,OU=GlassFish,O=Oracle Corporation,L=Santa Clara,ST=California,C=US"></secure-admin-principal>
   </secure-admin>
   <load-balancers></load-balancers>
   <lb-configs></lb-configs>

@@ -1,16 +1,16 @@
-/* AUTOMATICALLY GENERATED ON Sun Dec 29 15:25:00 CET 2013*/
+/* AUTOMATICALLY GENERATED ON Sat Jan 04 02:35:14 CET 2014*/
 /* DO NOT EDIT */
 
 grant {
+  permission javax.security.jacc.WebResourcePermission "/theme/META-INF/*";
+  permission javax.security.jacc.WebResourcePermission "/theme/org/*";
+  permission javax.security.jacc.WebResourcePermission "/resource/*";
+  permission javax.security.jacc.WebResourcePermission "/theme/com/*";
   permission javax.security.jacc.WebUserDataPermission "/theme/com/*";
   permission javax.security.jacc.WebUserDataPermission "/theme/META-INF/*";
   permission javax.security.jacc.WebUserDataPermission "/theme/org/*";
   permission javax.security.jacc.WebUserDataPermission "/*:/resource/*:/theme/com/*:/theme/META-INF/*:/theme/org/*";
   permission javax.security.jacc.WebUserDataPermission "/resource/*";
-  permission javax.security.jacc.WebResourcePermission "/theme/META-INF/*";
-  permission javax.security.jacc.WebResourcePermission "/theme/org/*";
-  permission javax.security.jacc.WebResourcePermission "/resource/*";
-  permission javax.security.jacc.WebResourcePermission "/theme/com/*";
 };
 
 grant      principal org.glassfish.security.common.PrincipalImpl "admin" {
