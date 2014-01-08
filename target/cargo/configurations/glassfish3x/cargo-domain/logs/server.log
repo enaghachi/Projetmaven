@@ -1,4 +1,4 @@
-janv. 03, 2014 7:24:39 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+janv. 07, 2014 7:28:16 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
 Infos: JVM invocation command line:
 -XX:+UnlockDiagnosticVMOptions
 -XX:PermSize=64m
@@ -30,55 +30,31 @@ Infos: JVM invocation command line:
 -Djava.security.auth.login.config=C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain/config/login.conf
 -DANTLR_USE_DIRECT_CLASS_LOADING=true
 -Dgosh.args=--nointeractive
-janv. 03, 2014 7:24:39 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
-Infos: Successfully launched in 39 msec.
-[#|2014-01-03T19:25:33.245+0100|INFO|glassfish3.1.2|com.sun.enterprise.server.logging.GFFileHandler|_ThreadID=1;_ThreadName=Thread-2;|Running GlassFish Version: GlassFish Server Open Source Edition 3.1.2.2 (build java_re)|#]
+janv. 07, 2014 7:28:17 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+Infos: Successfully launched in 22 msec.
+[#|2014-01-07T19:28:43.932+0100|INFO|glassfish3.1.2|com.sun.enterprise.server.logging.GFFileHandler|_ThreadID=1;_ThreadName=Thread-2;|Running GlassFish Version: GlassFish Server Open Source Edition 3.1.2.2 (build java_re)|#]
 
-[#|2014-01-03T19:25:33.917+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=27;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 153ms - bound to [0.0.0.0:4848]|#]
+[#|2014-01-07T19:28:44.592+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=23;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 138ms - bound to [0.0.0.0:8181]|#]
 
-[#|2014-01-03T19:25:33.916+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=30;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 138ms - bound to [0.0.0.0:3700]|#]
+[#|2014-01-07T19:28:44.594+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=33;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 74ms - bound to [0.0.0.0:7676]|#]
 
-[#|2014-01-03T19:25:33.918+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=22;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 231ms - bound to [0.0.0.0:9000]|#]
+[#|2014-01-07T19:28:44.592+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=30;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 94ms - bound to [0.0.0.0:3700]|#]
 
-[#|2014-01-03T19:25:33.918+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=23;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 178ms - bound to [0.0.0.0:8181]|#]
+[#|2014-01-07T19:28:44.594+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=27;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 113ms - bound to [0.0.0.0:4848]|#]
 
-[#|2014-01-03T19:25:33.922+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=33;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 130ms - bound to [0.0.0.0:7676]|#]
+[#|2014-01-07T19:28:44.593+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=19;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 244ms - bound to [0.0.0.0:9000]|#]
 
-[#|2014-01-03T19:25:34.242+0100|INFO|glassfish3.1.2|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=1;_ThreadName=Thread-2;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
+[#|2014-01-07T19:28:45.205+0100|INFO|glassfish3.1.2|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=1;_ThreadName=Thread-2;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
 
-[#|2014-01-03T19:25:34.322+0100|INFO|glassfish3.1.2|org.hibernate.validator.internal.util.Version|_ThreadID=34;_ThreadName=Thread-2;|HV000001: Hibernate Validator 4.3.0.Final|#]
+[#|2014-01-07T19:28:45.567+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=1;_ThreadName=Thread-2;|GlassFish Server Open Source Edition 3.1.2.2 (java_re) startup time : Felix (25 667ms), startup services(2 025ms), total(27 692ms)|#]
 
-[#|2014-01-03T19:25:34.537+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=1;_ThreadName=Thread-2;|GlassFish Server Open Source Edition 3.1.2.2 (java_re) startup time : Felix (41 069ms), startup services(12 576ms), total(53 645ms)|#]
+[#|2014-01-07T19:28:47.675+0100|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=43;_ThreadName=Thread-2;|JMX005: JMXStartupService had Started JMXConnector on JMXService URL service:jmx:rmi://162.38.26.52:8686/jndi/rmi://162.38.26.52:8686/jmxrmi|#]
 
-[#|2014-01-03T19:25:34.975+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=52;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 22ms - bound to [0.0.0.0:9000]|#]
+[#|2014-01-07T19:28:48.004+0100|INFO|glassfish3.1.2|org.hibernate.validator.internal.util.Version|_ThreadID=62;_ThreadName=Thread-2;|HV000001: Hibernate Validator 4.3.0.Final|#]
 
-[#|2014-01-03T19:25:35.933+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=66;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 3ms - bound to [0.0.0.0:8181]|#]
+[#|2014-01-07T19:28:59.196+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=76;_ThreadName=Thread-2;|SEC1002: Security Manager is OFF.|#]
 
-[#|2014-01-03T19:25:35.948+0100|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=53;_ThreadName=Thread-2;|JMX005: JMXStartupService had Started JMXConnector on JMXService URL service:jmx:rmi://simo-PC:8686/jndi/rmi://simo-PC:8686/jmxrmi|#]
-
-[#|2014-01-03T19:25:36.412+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=76;_ThreadName=Thread-2;|The Admin Console is installing...|#]
-
-[#|2014-01-03T19:25:37.219+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.container.common|_ThreadID=34;_ThreadName=Thread-2;|User [] from host simo-PC does not have administration access|#]
-
-[#|2014-01-03T19:25:38.722+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=76;_ThreadName=Thread-2;|The Admin Console is already installed, but not yet loaded.|#]
-
-[#|2014-01-03T19:25:38.723+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=76;_ThreadName=Thread-2;|The Admin Console is starting. Please wait.|#]
-
-[#|2014-01-03T19:25:42.387+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-1] on host/port [0.0.0.0:9000]|#]
-
-[#|2014-01-03T19:25:42.396+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-2] on host/port [0.0.0.0:8181]|#]
-
-[#|2014-01-03T19:25:42.404+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [admin-listener] on host/port [0.0.0.0:4848]|#]
-
-[#|2014-01-03T19:25:42.527+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0171: Created virtual server [server]|#]
-
-[#|2014-01-03T19:25:42.533+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0171: Created virtual server [__asadmin]|#]
-
-[#|2014-01-03T19:25:43.197+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0172: Virtual server [server] loaded default web module []|#]
-
-[#|2014-01-03T19:25:44.845+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=76;_ThreadName=Thread-2;|SEC1002: Security Manager is OFF.|#]
-
-[#|2014-01-03T19:25:45.526+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.ssl.security.com.sun.enterprise.security.ssl.impl|_ThreadID=76;_ThreadName=Thread-2;|SEC5054: Certificate has expired: [
+[#|2014-01-07T19:28:59.778+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.ssl.security.com.sun.enterprise.security.ssl.impl|_ThreadID=76;_ThreadName=Thread-2;|SEC5054: Certificate has expired: [
 [
   Version: V3
   Subject: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
@@ -140,139 +116,1348 @@ KeyIdentifier [
 
 ]|#]
 
-[#|2014-01-03T19:25:45.646+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=76;_ThreadName=Thread-2;|SEC1010: Entering Security Startup Service|#]
+[#|2014-01-07T19:28:59.845+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=76;_ThreadName=Thread-2;|SEC1010: Entering Security Startup Service|#]
 
-[#|2014-01-03T19:25:45.652+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=76;_ThreadName=Thread-2;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
+[#|2014-01-07T19:28:59.851+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=76;_ThreadName=Thread-2;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
 
-[#|2014-01-03T19:25:46.175+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=76;_ThreadName=Thread-2;|SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+[#|2014-01-07T19:29:00.162+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=76;_ThreadName=Thread-2;|SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
 
-[#|2014-01-03T19:25:46.177+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=76;_ThreadName=Thread-2;|SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+[#|2014-01-07T19:29:00.217+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=76;_ThreadName=Thread-2;|SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
 
-[#|2014-01-03T19:25:46.236+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=76;_ThreadName=Thread-2;|SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.|#]
+[#|2014-01-07T19:29:00.227+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=76;_ThreadName=Thread-2;|SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.|#]
 
-[#|2014-01-03T19:25:46.277+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=76;_ThreadName=Thread-2;|SEC1011: Security Service(s) Started Successfully|#]
+[#|2014-01-07T19:29:00.240+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=76;_ThreadName=Thread-2;|SEC1011: Security Service(s) Started Successfully|#]
 
-[#|2014-01-03T19:25:54.724+0100|INFO|glassfish3.1.2|javax.enterprise.resource.webcontainer.jsf.config|_ThreadID=76;_ThreadName=Thread-2;|Initialisation de Mojarra 2.1.6 (SNAPSHOT 20111206) pour le contexte «»|#]
+[#|2014-01-07T19:29:00.792+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-1] on host/port [0.0.0.0:9000]|#]
 
-[#|2014-01-03T19:25:56.068+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.PackagesResourceConfig|_ThreadID=34;_ThreadName=Thread-2;|Scanning for root resource and provider classes in the packages:
+[#|2014-01-07T19:29:00.805+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-2] on host/port [0.0.0.0:8181]|#]
+
+[#|2014-01-07T19:29:00.814+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [admin-listener] on host/port [0.0.0.0:4848]|#]
+
+[#|2014-01-07T19:29:00.865+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0171: Created virtual server [server]|#]
+
+[#|2014-01-07T19:29:00.871+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0171: Created virtual server [__asadmin]|#]
+
+[#|2014-01-07T19:29:01.285+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0172: Virtual server [server] loaded default web module []|#]
+
+[#|2014-01-07T19:29:05.505+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.PackagesResourceConfig|_ThreadID=76;_ThreadName=Thread-2;|Scanning for root resource and provider classes in the packages:
   jee.resources|#]
 
-[#|2014-01-03T19:25:56.126+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.ScanningResourceConfig|_ThreadID=34;_ThreadName=Thread-2;|Root resource classes found:
+[#|2014-01-07T19:29:05.540+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.ScanningResourceConfig|_ThreadID=76;_ThreadName=Thread-2;|Root resource classes found:
   class jee.resources.TweetResource
   class jee.resources.UtilisateurResource|#]
 
-[#|2014-01-03T19:25:56.127+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.ScanningResourceConfig|_ThreadID=34;_ThreadName=Thread-2;|No provider classes found.|#]
+[#|2014-01-07T19:29:05.541+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.ScanningResourceConfig|_ThreadID=76;_ThreadName=Thread-2;|No provider classes found.|#]
 
-[#|2014-01-03T19:25:56.351+0100|INFO|glassfish3.1.2|com.sun.jersey.server.impl.application.WebApplicationImpl|_ThreadID=34;_ThreadName=Thread-2;|Initiating Jersey application, version 'Jersey: 1.11.1 03/31/2012 06:49 PM'|#]
+[#|2014-01-07T19:29:05.994+0100|INFO|glassfish3.1.2|com.sun.jersey.server.impl.application.WebApplicationImpl|_ThreadID=76;_ThreadName=Thread-2;|Initiating Jersey application, version 'Jersey: 1.11.1 03/31/2012 06:49 PM'|#]
 
-[#|2014-01-03T19:25:59.115+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=34;_ThreadName=Thread-2;|WEB0671: Loading application [Tweety-1.0-SNAPSHOT] at [/Tweety]|#]
+[#|2014-01-07T19:29:08.207+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0671: Loading application [Tweety-1.0-SNAPSHOT] at [/Tweety]|#]
 
-[#|2014-01-03T19:25:59.293+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=34;_ThreadName=Thread-2;|Tweety-1.0-SNAPSHOT was successfully deployed in 17 385 milliseconds.|#]
+[#|2014-01-07T19:29:08.412+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=76;_ThreadName=Thread-2;|Tweety-1.0-SNAPSHOT was successfully deployed in 15 988 milliseconds.|#]
 
-[#|2014-01-03T19:25:59.840+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=76;_ThreadName=Thread-2;|WEB0671: Loading application [__admingui] at [/]|#]
+[#|2014-01-07T19:29:09.639+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=73;_ThreadName=Thread-2;|WEB0671: Loading application [cargocpc] at [/cargocpc]|#]
 
-[#|2014-01-03T19:25:59.842+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=76;_ThreadName=Thread-2;|CORE10010: Loading application __admingui done in 21 115 ms|#]
+[#|2014-01-07T19:29:09.676+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=73;_ThreadName=Thread-2;|cargocpc was successfully deployed in 431 milliseconds.|#]
 
-[#|2014-01-03T19:25:59.842+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=76;_ThreadName=Thread-2;|The Admin Console application is loaded.|#]
+[#|2014-01-07T19:30:27.554+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.core.XmlConfigLoader|_ThreadID=87;_ThreadName=Thread-2;|Not a Jar or Directory? C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT|#]
 
-[#|2014-01-03T19:26:01.104+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=87;_ThreadName=Thread-2;|WEB0671: Loading application [cargocpc] at [/cargocpc]|#]
+[#|2014-01-07T19:30:27.563+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.core.XmlConfigLoader|_ThreadID=87;_ThreadName=Thread-2;|Not a Jar or Directory? C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT|#]
 
-[#|2014-01-03T19:26:01.137+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=87;_ThreadName=Thread-2;|cargocpc was successfully deployed in 391 milliseconds.|#]
+[#|2014-01-07T19:30:27.858+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.util.ClassPathSearch|_ThreadID=87;_ThreadName=Thread-2;|Error: expected classPath entry [C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT] to be a directory or a .jar file but it is not either of those?|#]
 
-[#|2014-01-03T19:35:38.705+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.core.XmlConfigLoader|_ThreadID=113;_ThreadName=Thread-2;|Not a Jar or Directory? C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT|#]
+[#|2014-01-07T19:30:27.920+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.core.BootupClassPathSearch|_ThreadID=87;_ThreadName=Thread-2;|Classpath search hits in jars[ebean-2.8.1.jar] pkgs[com.avaje.ebeaninternal.server.bean, com.avaje.ebean.meta, jee.model]  searchTime[187]|#]
 
-[#|2014-01-03T19:35:38.713+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.core.XmlConfigLoader|_ThreadID=113;_ThreadName=Thread-2;|Not a Jar or Directory? C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT|#]
+[#|2014-01-07T19:30:28.031+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.lib.sql.DataSourcePool|_ThreadID=87;_ThreadName=Thread-2;|DataSourcePool [h2] autoCommit[false] transIsolation[READ_COMMITTED] min[1] max[25]|#]
 
-[#|2014-01-03T19:35:39.068+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.util.ClassPathSearch|_ThreadID=113;_ThreadName=Thread-2;|Error: expected classPath entry [C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT] to be a directory or a .jar file but it is not either of those?|#]
+[#|2014-01-07T19:30:30.579+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.core.DefaultServerFactory|_ThreadID=87;_ThreadName=Thread-2;|DatabasePlatform name:h2 platform:h2|#]
 
-[#|2014-01-03T19:35:39.133+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.core.BootupClassPathSearch|_ThreadID=113;_ThreadName=Thread-2;|Classpath search hits in jars[ebean-2.8.1.jar] pkgs[com.avaje.ebeaninternal.server.bean, com.avaje.ebean.meta, jee.model]  searchTime[251]|#]
+[#|2014-01-07T19:30:30.814+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.subclass.SubClassManager|_ThreadID=87;_ThreadName=Thread-2;|SubClassFactory parent ClassLoader [org.glassfish.web.loader.WebappClassLoader]|#]
 
-[#|2014-01-03T19:35:39.296+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.lib.sql.DataSourcePool|_ThreadID=113;_ThreadName=Thread-2;|DataSourcePool [h2] autoCommit[false] transIsolation[READ_COMMITTED] min[1] max[25]|#]
+[#|2014-01-07T19:30:32.753+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager|_ThreadID=87;_ThreadName=Thread-2;|Entities enhanced[0] subclassed[3]|#]
 
-[#|2014-01-03T19:35:41.206+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.core.DefaultServerFactory|_ThreadID=113;_ThreadName=Thread-2;|DatabasePlatform name:h2 platform:h2|#]
+[#|2014-01-07T19:30:33.472+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|runScript|#]
 
-[#|2014-01-03T19:35:41.432+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.subclass.SubClassManager|_ThreadID=113;_ThreadName=Thread-2;|SubClassFactory parent ClassLoader [org.glassfish.web.loader.WebappClassLoader]|#]
+[#|2014-01-07T19:30:33.473+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 1 of 8 SET REFERENTIAL_INTEGRITY FALSE|#]
 
-[#|2014-01-03T19:35:43.505+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager|_ThreadID=113;_ThreadName=Thread-2;|Entities enhanced[0] subclassed[3]|#]
+[#|2014-01-07T19:30:33.477+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 2 of 8 drop table if exists abonnement|#]
 
-[#|2014-01-03T19:35:44.349+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|runScript|#]
+[#|2014-01-07T19:30:33.478+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 3 of 8 drop table if exists tweet|#]
 
-[#|2014-01-03T19:35:44.349+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 1 of 8 SET REFERENTIAL_INTEGRITY FALSE|#]
+[#|2014-01-07T19:30:33.478+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 4 of 8 drop table if exists utilisateur|#]
 
-[#|2014-01-03T19:35:44.353+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 2 of 8 drop table if exists abonnement|#]
+[#|2014-01-07T19:30:33.479+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 5 of 8 SET REFERENTIAL_INTEGRITY TRUE|#]
 
-[#|2014-01-03T19:35:44.354+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 3 of 8 drop table if exists tweet|#]
+[#|2014-01-07T19:30:33.479+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 6 of 8 drop sequence if exists abonnement_seq|#]
 
-[#|2014-01-03T19:35:44.354+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 4 of 8 drop table if exists utilisateur|#]
+[#|2014-01-07T19:30:33.480+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 7 of 8 drop sequence if exists tweet_seq|#]
 
-[#|2014-01-03T19:35:44.355+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 5 of 8 SET REFERENTIAL_INTEGRITY TRUE|#]
+[#|2014-01-07T19:30:33.480+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 8 of 8 drop sequence if exists utilisateur_seq|#]
 
-[#|2014-01-03T19:35:44.355+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 6 of 8 drop sequence if exists abonnement_seq|#]
+[#|2014-01-07T19:30:33.481+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|... end of script|#]
 
-[#|2014-01-03T19:35:44.356+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 7 of 8 drop sequence if exists tweet_seq|#]
+[#|2014-01-07T19:30:33.505+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|runScript|#]
 
-[#|2014-01-03T19:35:44.357+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 8 of 8 drop sequence if exists utilisateur_seq|#]
+[#|2014-01-07T19:30:33.506+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 1 of 10 create table abonnement ( id                        bigint not null, email_ajout...|#]
 
-[#|2014-01-03T19:35:44.357+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|... end of script|#]
+[#|2014-01-07T19:30:33.508+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 2 of 10 create table tweet ( id                        bigint not null, datepublication...|#]
 
-[#|2014-01-03T19:35:44.383+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|runScript|#]
+[#|2014-01-07T19:30:33.512+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 3 of 10 create table utilisateur ( username                  varchar(255) not null, emai...|#]
 
-[#|2014-01-03T19:35:44.383+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 1 of 10 create table abonnement ( id                        bigint not null, email_ajout...|#]
+[#|2014-01-07T19:30:33.514+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 4 of 10 create sequence abonnement_seq|#]
 
-[#|2014-01-03T19:35:44.384+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 2 of 10 create table tweet ( id                        bigint not null, datepublication...|#]
+[#|2014-01-07T19:30:33.522+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 5 of 10 create sequence tweet_seq|#]
 
-[#|2014-01-03T19:35:44.386+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 3 of 10 create table utilisateur ( username                  varchar(255) not null, emai...|#]
+[#|2014-01-07T19:30:33.523+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 6 of 10 create sequence utilisateur_seq|#]
 
-[#|2014-01-03T19:35:44.387+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 4 of 10 create sequence abonnement_seq|#]
+[#|2014-01-07T19:30:33.523+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 7 of 10 alter table abonnement add constraint fk_abonnement_user_1 foreign key (Proprio_...|#]
 
-[#|2014-01-03T19:35:44.395+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 5 of 10 create sequence tweet_seq|#]
+[#|2014-01-07T19:30:33.571+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 8 of 10 create index ix_abonnement_user_1 on abonnement (Proprio_Email)|#]
 
-[#|2014-01-03T19:35:44.396+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 6 of 10 create sequence utilisateur_seq|#]
+[#|2014-01-07T19:30:33.572+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 9 of 10 alter table tweet add constraint fk_tweet_user_2 foreign key (user_username) ref...|#]
 
-[#|2014-01-03T19:35:44.397+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 7 of 10 alter table abonnement add constraint fk_abonnement_user_1 foreign key (Proprio_...|#]
+[#|2014-01-07T19:30:33.575+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|executing 10 of 10 create index ix_tweet_user_2 on tweet (user_username)|#]
 
-[#|2014-01-03T19:35:44.447+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 8 of 10 create index ix_abonnement_user_1 on abonnement (Proprio_Email)|#]
+[#|2014-01-07T19:30:33.575+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|... end of script|#]
 
-[#|2014-01-03T19:35:44.447+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 9 of 10 alter table tweet add constraint fk_tweet_user_2 foreign key (Tweet_userID) refe...|#]
+[#|2014-01-07T19:30:33.685+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.transaction.log.FileTransactionLoggerWrapper|_ThreadID=87;_ThreadName=Thread-2;|Transaction logs in: logs|#]
 
-[#|2014-01-03T19:35:44.449+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|executing 10 of 10 create index ix_tweet_user_2 on tweet (Tweet_userID)|#]
+[#|2014-01-07T19:30:33.686+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|creating user|#]
 
-[#|2014-01-03T19:35:44.450+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|... end of script|#]
+[#|2014-01-07T19:30:45.026+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=89;_ThreadName=Thread-2;|findById toto|#]
 
-[#|2014-01-03T19:35:44.555+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.transaction.log.FileTransactionLoggerWrapper|_ThreadID=113;_ThreadName=Thread-2;|Transaction logs in: logs|#]
-
-[#|2014-01-03T19:35:44.567+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=113;_ThreadName=Thread-2;|creating user|#]
-
-[#|2014-01-03T19:35:59.974+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=111;_ThreadName=Thread-2;|findById momo|#]
-
-[#|2014-01-03T19:36:00.353+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=111;_ThreadName=Thread-2;|<sql summary='Utilisateur' >
+[#|2014-01-07T19:30:45.398+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=89;_ThreadName=Thread-2;|<sql summary='Utilisateur' >
 select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4 
 from utilisateur t0 
 where t0.username = ?  and t0.password = ? 
 </sql>|#]
 
-[#|2014-01-03T19:36:00.464+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=111;_ThreadName=Thread-2;|<sql mode='+lazy' summary='Utilisateur +many:TweetList' load='path:TweetList batch:1 actual:1' >
+[#|2014-01-07T19:30:45.502+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=89;_ThreadName=Thread-2;|<sql mode='+lazy' summary='Utilisateur +many:TweetList' load='path:TweetList batch:1 actual:1' >
 select t0.username c0
-        , t1.id c1, t1.datepublication c2, t1.label c3, t1.sujet c4, t1.taguser c5, t1.Tweet_userID c6 
+        , t1.id c1, t1.datepublication c2, t1.label c3, t1.sujet c4, t1.taguser c5, t1.user_username c6 
 from utilisateur t0
-left outer join tweet t1 on t1.Tweet_userID = t0.username 
+left outer join tweet t1 on t1.user_username = t0.username 
 where t0.username = ?   
 order by t0.username
 </sql>|#]
 
-[#|2014-01-03T19:36:48.879+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=110;_ThreadName=Thread-2;|<sql summary='Utilisateur' >
+[#|2014-01-07T19:30:47.404+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=88;_ThreadName=Thread-2;|<sql summary='Tweet' >
+select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5 
+from tweet t0 
+order by t0.datepublication 
+limit 6
+</sql>|#]
+
+[#|2014-01-07T19:30:56.128+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=90;_ThreadName=Thread-2;|<sql summary='Tweet' >
+select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5 
+from tweet t0
+</sql>|#]
+
+[#|2014-01-07T19:31:26.355+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=86;_ThreadName=Thread-2;|<sql summary='Utilisateur' >
 select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4 
 from utilisateur t0 
 where t0.username = ? 
 </sql>|#]
 
-[#|2014-01-03T19:36:48.921+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=110;_ThreadName=Thread-2;|creating tweet|#]
+[#|2014-01-07T19:31:30.507+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|<sql summary='Tweet' >
+select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5 
+from tweet t0 
+where t0.id = ? 
+</sql>|#]
 
-[#|2014-01-03T19:45:48.350+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.v3.admin|_ThreadID=126;_ThreadName=Thread-2;|Server shutdown initiated|#]
+[#|2014-01-07T19:31:30.527+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|<sql mode='+lazy' summary='Utilisateur' load='path:user batch:1 actual:1' >
+select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4 
+from utilisateur t0
+where t0.username = ?  
+</sql>|#]
 
-[#|2014-01-03T19:46:12.444+0100|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=126;_ThreadName=Thread-2;|JMX002: JMXStartupService: Stopped JMXConnectorServer: null|#]
+[#|2014-01-07T19:31:30.529+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=87;_ThreadName=Thread-2;|<sql mode='+lazy' summary='Utilisateur +many:TweetList' load='path:user.TweetList batch:1 actual:1' >
+select t0.username c0
+        , t1.id c1, t1.datepublication c2, t1.label c3, t1.sujet c4, t1.taguser c5, t1.user_username c6 
+from utilisateur t0
+left outer join tweet t1 on t1.user_username = t0.username 
+where t0.username = ?   
+order by t0.username
+</sql>|#]
 
-[#|2014-01-03T19:46:12.510+0100|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=126;_ThreadName=Thread-2;|JMX001: JMXStartupService and JMXConnectors have been shut down.|#]
+[#|2014-01-07T19:31:30.675+0100|WARNING|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=87;_ThreadName=Thread-2;|StandardWrapperValve[JerseyServletName]: PWC1406: Servlet.service() for servlet JerseyServletName threw exception
+org.codehaus.jackson.map.JsonMappingException: Infinite recursion (StackOverflowError) (through reference chain: jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"]->com.avaje.ebean.common.BeanList[0]->jee.model.Tweet$$EntityBean$h2["user"]->jee.model.Utilisateur$$EntityBean$h2["tweetList"])
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:164)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446)
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150)
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:72)
+	at org.codehaus.jackson.map.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:23)
+|#]
 
-[#|2014-01-03T19:46:12.552+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=126;_ThreadName=Thread-2;|Shutdown procedure finished|#]
+[#|2014-01-07T20:15:36.212+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.v3.admin|_ThreadID=104;_ThreadName=Thread-2;|Server shutdown initiated|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|java.io.IOException: Cannot bind to URL: javax.naming.CommunicationException [Root exception is java.rmi.ConnectIOException: Exception creating connection to: 162.38.26.52; nested exception is: 
+	java.net.SocketException: Network is unreachable: connect]
+	at javax.management.remote.rmi.RMIConnectorServer.newIOException(RMIConnectorServer.java:826)
+	at javax.management.remote.rmi.RMIConnectorServer.stop(RMIConnectorServer.java:569)
+	at org.glassfish.admin.mbeanserver.ConnectorStarter.stop(ConnectorStarter.java:131)
+	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.stopAndUnexport(RMIConnectorStarter.java:311)
+	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.shutdown(JMXStartupService.java:235)
+	at org.glassfish.admin.mbeanserver.JMXStartupService.shutdown(JMXStartupService.java:160)
+	at org.glassfish.admin.mbeanserver.JMXStartupService.access$000(JMXStartupService.java:94)
+	at org.glassfish.admin.mbeanserver.JMXStartupService$ShutdownListener.event(JMXStartupService.java:128)
+	at org.glassfish.kernel.event.EventsImpl.send(EventsImpl.java:128)
+	at com.sun.enterprise.v3.server.AppServerStartup.stop(AppServerStartup.java:439)
+	at com.sun.enterprise.glassfish.bootstrap.GlassFishImpl.stop(GlassFishImpl.java:88)
+	at com.sun.enterprise.glassfish.bootstrap.GlassFishDecorator.stop(GlassFishDecorator.java:68)
+	at com.sun.enterprise.v3.admin.StopServer.doExecute(StopServer.java:70)
+	at com.sun.enterprise.v3.admin.StopDomainCommand.execute(StopDomainCommand.java:95)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$1.execute(CommandRunnerImpl.java:348)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.run(CommandRunnerImpl.java:377)
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.ConnectIOException: Exception creating connection to: 162.38.26.52; nested exception is: 
+	java.net.SocketException: Network is unreachable: connect]
+	at com.sun.jndi.rmi.registry.RegistryContext.unbind(RegistryContext.java:177)
+	at com.sun.jndi.toolkit.url.GenericURLContext.unbind(GenericURLContext.java:272)
+	at javax.naming.InitialContext.unbind(InitialContext.java:435)
+	at javax.management.remote.rmi.RMIConnectorServer.stop(RMIConnectorServer.java:561)
+	... 14 more
+Caused by: java.rmi.ConnectIOException: Exception creating connection to: 162.38.26.52; nested exception is: 
+	java.net.SocketException: Network is unreachable: connect
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:631)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.newCall(UnicastRef.java:341)
+	at sun.rmi.registry.RegistryImpl_Stub.unbind(Unknown Source)
+	at com.sun.jndi.rmi.registry.RegistryContext.unbind(RegistryContext.java:173)
+	... 17 more
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:40)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:147)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:613)
+	... 22 more
+|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at javax.management.remote.rmi.RMIConnectorServer.newIOException(RMIConnectorServer.java:826)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at javax.management.remote.rmi.RMIConnectorServer.stop(RMIConnectorServer.java:569)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at org.glassfish.admin.mbeanserver.ConnectorStarter.stop(ConnectorStarter.java:131)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.stopAndUnexport(RMIConnectorStarter.java:311)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.shutdown(JMXStartupService.java:235)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at org.glassfish.admin.mbeanserver.JMXStartupService.shutdown(JMXStartupService.java:160)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at org.glassfish.admin.mbeanserver.JMXStartupService.access$000(JMXStartupService.java:94)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at org.glassfish.admin.mbeanserver.JMXStartupService$ShutdownListener.event(JMXStartupService.java:128)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at org.glassfish.kernel.event.EventsImpl.send(EventsImpl.java:128)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.enterprise.v3.server.AppServerStartup.stop(AppServerStartup.java:439)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.enterprise.glassfish.bootstrap.GlassFishImpl.stop(GlassFishImpl.java:88)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.enterprise.glassfish.bootstrap.GlassFishDecorator.stop(GlassFishDecorator.java:68)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.enterprise.v3.admin.StopServer.doExecute(StopServer.java:70)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.enterprise.v3.admin.StopDomainCommand.execute(StopDomainCommand.java:95)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.enterprise.v3.admin.CommandRunnerImpl$1.execute(CommandRunnerImpl.java:348)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.run(CommandRunnerImpl.java:377)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|Caused by: javax.naming.CommunicationException [Root exception is java.rmi.ConnectIOException: Exception creating connection to: 162.38.26.52; nested exception is: 
+	java.net.SocketException: Network is unreachable: connect]|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.jndi.rmi.registry.RegistryContext.unbind(RegistryContext.java:177)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.jndi.toolkit.url.GenericURLContext.unbind(GenericURLContext.java:272)|#]
+
+[#|2014-01-07T20:15:39.612+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at javax.naming.InitialContext.unbind(InitialContext.java:435)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at javax.management.remote.rmi.RMIConnectorServer.stop(RMIConnectorServer.java:561)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	... 14 more|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|Caused by: java.rmi.ConnectIOException: Exception creating connection to: 162.38.26.52; nested exception is: 
+	java.net.SocketException: Network is unreachable: connect|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:631)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at sun.rmi.server.UnicastRef.newCall(UnicastRef.java:341)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at sun.rmi.registry.RegistryImpl_Stub.unbind(Unknown Source)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at com.sun.jndi.rmi.registry.RegistryContext.unbind(RegistryContext.java:173)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	... 17 more|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|Caused by: java.net.SocketException: Network is unreachable: connect|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.DualStackPlainSocketImpl.connect0(Native Method)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.Socket.connect(Socket.java:579)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.Socket.connect(Socket.java:528)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.Socket.<init>(Socket.java:425)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at java.net.Socket.<init>(Socket.java:208)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:40)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:147)|#]
+
+[#|2014-01-07T20:15:39.622+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:613)|#]
+
+[#|2014-01-07T20:15:39.632+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|	... 22 more|#]
+
+[#|2014-01-07T20:15:39.632+0100|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=104;_ThreadName=Thread-2;|JMX002: JMXStartupService: Stopped JMXConnectorServer: null|#]
+
+[#|2014-01-07T20:15:39.632+0100|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=104;_ThreadName=Thread-2;|JMX001: JMXStartupService and JMXConnectors have been shut down.|#]
+
+[#|2014-01-07T20:15:39.632+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=104;_ThreadName=Thread-44;|Shutdown procedure finished|#]
 

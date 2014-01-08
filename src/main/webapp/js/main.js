@@ -79,11 +79,13 @@ function login(username,password){
                                                 <button id="publier"> publier </button>\n\\n\
                                                 </form>\
                                             </di>\
-                                            <div id="displayTweet">\n\
+                                            <div id="List_Tweet">\n\
                                             </div>');
 
                         bindLogoutEvent();    
                         bindaddTweetEvent();
+                        bindListTweetEvent();
+                        binddeleteTweetEvent();
                     },
                
                  error: function(jqXHR, textStatus, errorThrown){
@@ -138,19 +140,81 @@ function addTweet(){
                 type: 'POST',
                 //contentType:'application/json',
                 url: rootURL + '/Tweet/add',
-                dataType: "json",  // Le type de données à recevoir de service, ici, du json.
+                //dataType: "json",  // Le type de données à recevoir de service, ici, du json.
                 data:data, //FormaddtweetToJSON(),
-                success : function(code_html, statut){
+                success : function(d, textStatus, jqXHR){
                     alert("tweet ajouté");
+                    // On ajoute le Tweet dans la page
+                    alert("avantprepend");
+                    $.get(d,function(data){
+                        alert("apresprepend");
+                        $("#List_Tweet").prepend(renderItem(data.id, data.label, data.sujet, data.datepublication,data.Taguser,data.user.username));  
+                    });
                 },
                 error : function(resultat, statut, erreur){
                     alert("tweet non ajouté");
                     alert("status"+resultat.status); //affiche le code d erreur
                     
+                    
                 }
             });
 }
+//affichage liste de Tweet d'un user
+function bindListTweetEvent(){
+    $.get(rootURL+"/Tweet/0/5",function(data){
+        var i = 0;
+        alert ("data "+data);
+        if(data != null) {
+            alert("avantdataeach");
+             $(data.valueOf()).each(function(){
+                 alert("apresdataeach");
+                i++
+                $("#List_Tweet").prepend(renderItem(this.id, this.label, this.sujet, this.datepublication, this.Taguser, this.user));
+            });
+            if(i==0)
+                showWelcome();
+                $("#loadmore").remove();
+            // Si on est venu ici après une suppression on supprime le lien
+            // "load more"
+            if(removeLoadMore()){
+                $("#loadmore").remove();
+                console.log("DELETE");
+            }else
+            {
+                // Si on vient ici après la publication d'un nouveau Tweet on
+                // fait apparitre le bouton "load more"
+                console.log("INSERT");
+                $("<div id='loadmore'><a href='#' id='load' >J'en veux plus !</a></div>").insertAfter("#List_Tweet");
+            }
+        }
+       
+    },"json");
+        }
+function binddeleteTweetEvent() {
+   // Clic sur le bouton delete pour supprimer un Tweet
+    $(".delete").live("click",function(){
 
+        var id = $(this).attr("href");
+        console.log(id);
+
+        $.ajax(id,
+        {
+            type:"DELETE",
+            success: function(d){
+                $("#Tweet-"+d).slideUp('slow',function(){
+                    $(this).remove();
+                    });
+            }
+        });
+        
+        if(removeLoadMore()){
+            $("#loadmore").remove();
+        }
+        
+        return false;
+
+    });
+}
 // Helper function to serialize all the form fields into a JSON string
 function formToJSON() {
         return JSON.stringify({
@@ -161,13 +225,44 @@ function formToJSON() {
                 "date_inscription": new Date()
                 });
 }
-//function FormaddtweetToJSON() {
-//     return JSON.stringify({
-//                "Taguser": $('#usernameonline').val(), 
-//                "label": $('#areaTweet').val()
-//            });
-//        }
-        
+
+//message si on a aucun Tweet
+function showWelcome(){
+        $("#List_Tweet").html("<div id='welcome'>Aucun Tweet n'est présent.</div>");
+    } 
+//suppression du lien loadMore   
+function removeLoadMore()
+    {
+        $.get("http://localhost:9000/Tweety/resources/Tweet/count",function(data){
+            var i = $("#List_Tweet").children().length;
+            console.log("dans la bd : "+data+" | sur le site : "+i);
+            if(data == i){
+                return true;
+            }else
+                return false;
+        });
+    }
+ // creation et ajout d'un article dans la page
+ function renderItem(id, label, sujet, date, Taguser,userpropr)
+    {
+        var myDate = new Date( date );
+        var strDate = "";
+        strDate += myDate.getUTCDate()+"/"+myDate.getMonth()+"/"+myDate.getFullYear();
+        strDate += " à "+myDate.getHours()+":"+myDate.getMinutes();
+        return "<div class='Tweet' id='Tweet-"+id+"'>\
+                <h2>"+label+"</h2>\
+                <p class='sujet'>"+sujet+"</p>\\n\
+                <p class='Taguser'>"+Taguser+"</p>\\n\
+                <p class='userpropr'>"+userpropr+"</p>\\n\
+                <div class='postmeta'>\n\
+                    <p class='alignleft'>Article publi&eacute; le "+strDate+"</p>\n\
+                    <p class='alignright'>\n\
+                        <a class='button blue delete' href='http://localhost:9000/Tweety/resources/Tweet"+id+"'>Supprimer</a>\n\
+                    </p>\n\
+                </div>\n\
+                    <div class='clearfix'></div>\
+                </div>";
+    }
 $().ready(function(){
  bindEventsOnReady();
 });

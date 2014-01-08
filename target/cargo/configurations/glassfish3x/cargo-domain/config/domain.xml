@@ -1,12 +1,5 @@
 <domain log-root="${com.sun.aas.instanceRoot}/logs" application-root="${com.sun.aas.instanceRoot}/applications" version="java_re">
-  <system-applications>
-    <application context-root="" location="${com.sun.aas.installRootURI}/lib/install/applications/__admingui" name="__admingui" directory-deployed="true" object-type="system-admin">
-      <module name="__admingui">
-        <engine sniffer="web"></engine>
-        <engine sniffer="security"></engine>
-      </module>
-    </application>
-  </system-applications>
+  <system-applications></system-applications>
   <applications>
     <application context-root="/Tweety" location="${com.sun.aas.instanceRootURI}/applications/Tweety-1.0-SNAPSHOT/" name="Tweety-1.0-SNAPSHOT" object-type="user">
       <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/Tweety-1.0-SNAPSHOT/Tweety-1.0-SNAPSHOT.war"></property>
@@ -34,7 +27,6 @@
   </resources>
   <servers>
     <server name="server" config-ref="server-config">
-      <application-ref ref="__admingui" virtual-servers="__asadmin"></application-ref>
       <application-ref ref="Tweety-1.0-SNAPSHOT" virtual-servers="server"></application-ref>
       <application-ref ref="cargocpc" virtual-servers="server"></application-ref>
       <resource-ref ref="jdbc/__TimerPool"></resource-ref>
@@ -394,7 +386,6 @@
       <thread-pools>
         <thread-pool name="http-thread-pool"></thread-pool>
         <thread-pool max-thread-pool-size="200" name="thread-pool-1"></thread-pool>
-        <thread-pool name="admin-thread-pool" max-thread-pool-size="50" max-queue-size="256"></thread-pool>
       </thread-pools>
       <group-management-service>
         <failure-detection></failure-detection>
@@ -418,7 +409,7 @@
     </config>
   </configs>
   <property name="administrative.domain.name" value="cargo-domain"></property>
-  <secure-admin special-admin-indicator="448a545f-d157-4497-9972-2622e235835e">
+  <secure-admin special-admin-indicator="2b2fdf07-0552-430e-a6f6-ff8d1af7697d">
     <secure-admin-principal dn="CN=simo-PC,OU=GlassFish,O=Oracle Corporation,L=Santa Clara,ST=California,C=US"></secure-admin-principal>
     <secure-admin-principal dn="CN=simo-PC-instance,OU=GlassFish,O=Oracle Corporation,L=Santa Clara,ST=California,C=US"></secure-admin-principal>
   </secure-admin>

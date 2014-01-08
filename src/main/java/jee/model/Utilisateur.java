@@ -7,13 +7,15 @@ import com.avaje.ebean.validation.Email;
 import com.google.common.collect.Constraints;
 import java.io.Serializable;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
+import org.codehaus.jackson.annotate.JsonIgnore;
 
 @Entity
 public class Utilisateur implements Serializable{
-         private static final long serialVersionUID = 1L;
+        private static final long serialVersionUID = 1L;
         @Id
 	private String username;
         
@@ -27,10 +29,12 @@ public class Utilisateur implements Serializable{
         @Temporal(javax.persistence.TemporalType.TIMESTAMP)
 	private Date date_inscription ;
 	
-	@OneToMany(mappedBy="user")  //un User pour plusieurs tweet, "mappedBy" qui référence le nom de l'attribut User dans la classe Event
-	private List<Tweet> TweetList;
+	@OneToMany(mappedBy="user")  //un User pour plusieurs tweet, "mappedBy" qui référence le nom de l'attribut User dans la classe Even
+        @JsonIgnore
+        private List<Tweet> TweetList;
 	
-	public Utilisateur(){		
+	public Utilisateur(){
+             
 	}
 	
 	  public Utilisateur(String username, String password, String sexe,
@@ -120,12 +124,10 @@ public class Utilisateur implements Serializable{
         return TweetList;
     }
 
-    /**
-     * @param TweetList the TweetList to set
-     */
     public void setTweetList(List<Tweet> TweetList) {
         this.TweetList = TweetList;
     }
+    
 
      
 	

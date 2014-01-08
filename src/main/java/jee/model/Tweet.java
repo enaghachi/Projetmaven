@@ -8,19 +8,22 @@ import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Temporal;
 
 
 
 @Entity
 public class Tweet implements Serializable{
-	
-	 private static final long serialVersionUID = 1L;
+ 
+	private static final long serialVersionUID = 1L;
+
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         private Long id;
@@ -34,8 +37,9 @@ public class Tweet implements Serializable{
 	private String Taguser;
         
 	@ManyToOne(cascade={CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH })
-	@JoinColumn(name="Tweet_userID")
-	private Utilisateur user;
+	@JoinColumn(name="user_username")
+        private Utilisateur user;//@JoinColumn(name="userID")//,referencedColumnName="username")
+	
         
         public Tweet(){    
         }

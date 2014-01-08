@@ -48,7 +48,12 @@ public class UtilisateurResource {
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public Utilisateur adduser(Utilisateur user) {
          String passwordhashe = MD5Password.getEncodedPassword(user.getPassword());
-          Utilisateur saveuser = new Utilisateur(user.getUsername(),passwordhashe,user.getSexe(),user.getEmail(),new Date());
+          Utilisateur saveuser = new Utilisateur();
+          saveuser.setUsername(user.getUsername());
+          saveuser.setPassword(passwordhashe);
+          saveuser.setSexe(user.getSexe());
+          saveuser.setEmail(user.getEmail());
+          saveuser.setDate_inscription(new Date());
           Ebean.save(saveuser);
           System.out.println("creating user");
           return saveuser;
