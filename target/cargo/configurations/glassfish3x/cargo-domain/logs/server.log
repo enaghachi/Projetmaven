@@ -1,4 +1,4 @@
-一月 04, 2014 2:35:03 上午 com.sun.enterprise.admin.launcher.GFLauncherLogger info
+一月 09, 2014 3:24:50 下午 com.sun.enterprise.admin.launcher.GFLauncherLogger info
 信息: JVM invocation command line:
 -XX:+UnlockDiagnosticVMOptions
 -XX:PermSize=64m
@@ -30,55 +30,55 @@
 -Djava.security.auth.login.config=G:\jeudiprojet\maven\target\cargo\configurations\glassfish3x\cargo-domain/config/login.conf
 -DANTLR_USE_DIRECT_CLASS_LOADING=true
 -Dgosh.args=--nointeractive
-一月 04, 2014 2:35:03 上午 com.sun.enterprise.admin.launcher.GFLauncherLogger info
-信息: Successfully launched in 22 msec.
-[#|2014-01-04T02:35:06.434+0100|INFO|glassfish3.1.2|com.sun.enterprise.server.logging.GFFileHandler|_ThreadID=1;_ThreadName=Thread-2;|Running GlassFish Version: GlassFish Server Open Source Edition 3.1.2.2 (build java_re)|#]
+一月 09, 2014 3:24:50 下午 com.sun.enterprise.admin.launcher.GFLauncherLogger info
+信息: Successfully launched in 24 msec.
+[#|2014-01-09T15:24:53.838+0100|INFO|glassfish3.1.2|com.sun.enterprise.server.logging.GFFileHandler|_ThreadID=1;_ThreadName=Thread-2;|Running GlassFish Version: GlassFish Server Open Source Edition 3.1.2.2 (build java_re)|#]
 
-[#|2014-01-04T02:35:06.668+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=23;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 37ms - bound to [0.0.0.0:8181]|#]
+[#|2014-01-09T15:24:54.064+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=28;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 21ms - bound to [0.0.0.0:4848]|#]
 
-[#|2014-01-04T02:35:06.669+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=22;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 54ms - bound to [0.0.0.0:9000]|#]
+[#|2014-01-09T15:24:54.067+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=21;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 56ms - bound to [0.0.0.0:9000]|#]
 
-[#|2014-01-04T02:35:06.669+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=30;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 18ms - bound to [0.0.0.0:3700]|#]
+[#|2014-01-09T15:24:54.070+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=26;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 40ms - bound to [0.0.0.0:8181]|#]
 
-[#|2014-01-04T02:35:06.669+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=27;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 29ms - bound to [0.0.0.0:4848]|#]
+[#|2014-01-09T15:24:54.067+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=30;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 17ms - bound to [0.0.0.0:3700]|#]
 
-[#|2014-01-04T02:35:06.674+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=33;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 11ms - bound to [0.0.0.0:7676]|#]
+[#|2014-01-09T15:24:54.076+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=33;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 12ms - bound to [0.0.0.0:7676]|#]
 
-[#|2014-01-04T02:35:06.807+0100|INFO|glassfish3.1.2|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=1;_ThreadName=Thread-2;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
+[#|2014-01-09T15:24:54.205+0100|INFO|glassfish3.1.2|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=1;_ThreadName=Thread-2;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
 
-[#|2014-01-04T02:35:06.852+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=1;_ThreadName=Thread-2;|GlassFish Server Open Source Edition 3.1.2.2 (java_re) startup time : Felix (2,345ms), startup services(1,184ms), total(3,529ms)|#]
+[#|2014-01-09T15:24:54.250+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=1;_ThreadName=Thread-2;|GlassFish Server Open Source Edition 3.1.2.2 (java_re) startup time : Felix (2,813ms), startup services(606ms), total(3,419ms)|#]
 
-[#|2014-01-04T02:35:07.079+0100|INFO|glassfish3.1.2|org.hibernate.validator.internal.util.Version|_ThreadID=38;_ThreadName=Thread-2;|HV000001: Hibernate Validator 4.3.0.Final|#]
+[#|2014-01-09T15:24:54.484+0100|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=37;_ThreadName=Thread-2;|JMX005: JMXStartupService had Started JMXConnector on JMXService URL service:jmx:rmi://162.38.27.98:8686/jndi/rmi://162.38.27.98:8686/jmxrmi|#]
 
-[#|2014-01-04T02:35:07.122+0100|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=39;_ThreadName=Thread-2;|JMX005: JMXStartupService had Started JMXConnector on JMXService URL service:jmx:rmi://KLEROF3LKK0HZQG:8686/jndi/rmi://KLEROF3LKK0HZQG:8686/jmxrmi|#]
+[#|2014-01-09T15:24:54.574+0100|INFO|glassfish3.1.2|org.hibernate.validator.internal.util.Version|_ThreadID=46;_ThreadName=Thread-2;|HV000001: Hibernate Validator 4.3.0.Final|#]
 
-[#|2014-01-04T02:35:07.700+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=72;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 12ms - bound to [0.0.0.0:9000]|#]
+[#|2014-01-09T15:24:55.102+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=71;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 16ms - bound to [0.0.0.0:9000]|#]
 
-[#|2014-01-04T02:35:08.700+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=76;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 14ms - bound to [0.0.0.0:8181]|#]
+[#|2014-01-09T15:24:56.116+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=75;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 6ms - bound to [0.0.0.0:8181]|#]
 
-[#|2014-01-04T02:35:08.781+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=79;_ThreadName=Thread-2;|The Admin Console is installing...|#]
+[#|2014-01-09T15:24:56.198+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=78;_ThreadName=Thread-2;|The Admin Console is installing...|#]
 
-[#|2014-01-04T02:35:08.958+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.container.common|_ThreadID=80;_ThreadName=Thread-2;|User [] from host KLEROF3LKK0HZQG does not have administration access|#]
+[#|2014-01-09T15:24:56.322+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.container.common|_ThreadID=79;_ThreadName=Thread-2;|User [] from host 162.38.27.98 does not have administration access|#]
 
-[#|2014-01-04T02:35:08.979+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=79;_ThreadName=Thread-2;|The Admin Console is already installed, but not yet loaded.|#]
+[#|2014-01-09T15:24:56.358+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=78;_ThreadName=Thread-2;|The Admin Console is already installed, but not yet loaded.|#]
 
-[#|2014-01-04T02:35:08.980+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=79;_ThreadName=Thread-2;|The Admin Console is starting. Please wait.|#]
+[#|2014-01-09T15:24:56.359+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=78;_ThreadName=Thread-2;|The Admin Console is starting. Please wait.|#]
 
-[#|2014-01-04T02:35:09.429+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=79;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-1] on host/port [0.0.0.0:9000]|#]
+[#|2014-01-09T15:24:56.720+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=78;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-1] on host/port [0.0.0.0:9000]|#]
 
-[#|2014-01-04T02:35:09.432+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=79;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-2] on host/port [0.0.0.0:8181]|#]
+[#|2014-01-09T15:24:56.724+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=78;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-2] on host/port [0.0.0.0:8181]|#]
 
-[#|2014-01-04T02:35:09.434+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=79;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [admin-listener] on host/port [0.0.0.0:4848]|#]
+[#|2014-01-09T15:24:56.726+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=78;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [admin-listener] on host/port [0.0.0.0:4848]|#]
 
-[#|2014-01-04T02:35:09.458+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=79;_ThreadName=Thread-2;|WEB0171: Created virtual server [server]|#]
+[#|2014-01-09T15:24:56.749+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=78;_ThreadName=Thread-2;|WEB0171: Created virtual server [server]|#]
 
-[#|2014-01-04T02:35:09.460+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=79;_ThreadName=Thread-2;|WEB0171: Created virtual server [__asadmin]|#]
+[#|2014-01-09T15:24:56.751+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=78;_ThreadName=Thread-2;|WEB0171: Created virtual server [__asadmin]|#]
 
-[#|2014-01-04T02:35:09.763+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=79;_ThreadName=Thread-2;|WEB0172: Virtual server [server] loaded default web module []|#]
+[#|2014-01-09T15:24:57.055+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=78;_ThreadName=Thread-2;|WEB0172: Virtual server [server] loaded default web module []|#]
 
-[#|2014-01-04T02:35:10.031+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=79;_ThreadName=Thread-2;|SEC1002: Security Manager is OFF.|#]
+[#|2014-01-09T15:24:57.321+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=78;_ThreadName=Thread-2;|SEC1002: Security Manager is OFF.|#]
 
-[#|2014-01-04T02:35:10.139+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.ssl.security.com.sun.enterprise.security.ssl.impl|_ThreadID=79;_ThreadName=Thread-2;|SEC5054: Certificate has expired: [
+[#|2014-01-09T15:24:57.402+0100|SEVERE|glassfish3.1.2|javax.enterprise.system.ssl.security.com.sun.enterprise.security.ssl.impl|_ThreadID=78;_ThreadName=Thread-2;|SEC5054: Certificate has expired: [
 [
   Version: V3
   Subject: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
@@ -140,125 +140,114 @@ KeyIdentifier [
 
 ]|#]
 
-[#|2014-01-04T02:35:10.304+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=79;_ThreadName=Thread-2;|SEC1010: Entering Security Startup Service|#]
+[#|2014-01-09T15:24:57.419+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=78;_ThreadName=Thread-2;|SEC1010: Entering Security Startup Service|#]
 
-[#|2014-01-04T02:35:10.308+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=79;_ThreadName=Thread-2;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
+[#|2014-01-09T15:24:57.422+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=78;_ThreadName=Thread-2;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
 
-[#|2014-01-04T02:35:10.365+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=79;_ThreadName=Thread-2;|SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+[#|2014-01-09T15:24:57.467+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=78;_ThreadName=Thread-2;|SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
 
-[#|2014-01-04T02:35:10.366+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=79;_ThreadName=Thread-2;|SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+[#|2014-01-09T15:24:57.468+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=78;_ThreadName=Thread-2;|SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
 
-[#|2014-01-04T02:35:10.380+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=79;_ThreadName=Thread-2;|SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.|#]
+[#|2014-01-09T15:24:57.480+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=78;_ThreadName=Thread-2;|SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.|#]
 
-[#|2014-01-04T02:35:10.395+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=79;_ThreadName=Thread-2;|SEC1011: Security Service(s) Started Successfully|#]
+[#|2014-01-09T15:24:57.494+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=78;_ThreadName=Thread-2;|SEC1011: Security Service(s) Started Successfully|#]
 
-[#|2014-01-04T02:35:11.901+0100|INFO|glassfish3.1.2|javax.enterprise.resource.webcontainer.jsf.config|_ThreadID=79;_ThreadName=Thread-2;|初始化上下文 '' 的 Mojarra 2.1.6 (SNAPSHOT 20111206)|#]
+[#|2014-01-09T15:24:59.808+0100|INFO|glassfish3.1.2|javax.enterprise.resource.webcontainer.jsf.config|_ThreadID=78;_ThreadName=Thread-2;|初始化上下文 '' 的 Mojarra 2.1.6 (SNAPSHOT 20111206)|#]
 
-[#|2014-01-04T02:35:13.607+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.PackagesResourceConfig|_ThreadID=38;_ThreadName=Thread-2;|Scanning for root resource and provider classes in the packages:
+[#|2014-01-09T15:25:01.205+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=78;_ThreadName=Thread-2;|WEB0671: Loading application [__admingui] at [/]|#]
+
+[#|2014-01-09T15:25:01.206+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=78;_ThreadName=Thread-2;|CORE10010: Loading application __admingui done in 4,847 ms|#]
+
+[#|2014-01-09T15:25:01.206+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=78;_ThreadName=Thread-2;|The Admin Console application is loaded.|#]
+
+[#|2014-01-09T15:25:10.122+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.PackagesResourceConfig|_ThreadID=79;_ThreadName=Thread-2;|Scanning for root resource and provider classes in the packages:
   jee.resources|#]
 
-[#|2014-01-04T02:35:13.643+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.ScanningResourceConfig|_ThreadID=38;_ThreadName=Thread-2;|Root resource classes found:
+[#|2014-01-09T15:25:10.132+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.ScanningResourceConfig|_ThreadID=79;_ThreadName=Thread-2;|Root resource classes found:
   class jee.resources.TweetResource
   class jee.resources.UtilisateurResource|#]
 
-[#|2014-01-04T02:35:13.643+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.ScanningResourceConfig|_ThreadID=38;_ThreadName=Thread-2;|No provider classes found.|#]
+[#|2014-01-09T15:25:10.132+0100|INFO|glassfish3.1.2|com.sun.jersey.api.core.ScanningResourceConfig|_ThreadID=79;_ThreadName=Thread-2;|No provider classes found.|#]
 
-[#|2014-01-04T02:35:13.735+0100|INFO|glassfish3.1.2|com.sun.jersey.server.impl.application.WebApplicationImpl|_ThreadID=38;_ThreadName=Thread-2;|Initiating Jersey application, version 'Jersey: 1.11.1 03/31/2012 06:49 PM'|#]
+[#|2014-01-09T15:25:10.205+0100|INFO|glassfish3.1.2|com.sun.jersey.server.impl.application.WebApplicationImpl|_ThreadID=79;_ThreadName=Thread-2;|Initiating Jersey application, version 'Jersey: 1.11.1 03/31/2012 06:49 PM'|#]
 
-[#|2014-01-04T02:35:14.195+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=79;_ThreadName=Thread-2;|WEB0671: Loading application [__admingui] at [/]|#]
+[#|2014-01-09T15:25:10.983+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=79;_ThreadName=Thread-2;|WEB0671: Loading application [Tweety-1.0-SNAPSHOT] at [/Tweety]|#]
 
-[#|2014-01-04T02:35:14.196+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=79;_ThreadName=Thread-2;|CORE10010: Loading application __admingui done in 5,216 ms|#]
+[#|2014-01-09T15:25:11.063+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=79;_ThreadName=Thread-2;|Tweety-1.0-SNAPSHOT was successfully deployed in 3,219 milliseconds.|#]
 
-[#|2014-01-04T02:35:14.197+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=79;_ThreadName=Thread-2;|The Admin Console application is loaded.|#]
+[#|2014-01-09T15:25:11.652+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=91;_ThreadName=Thread-2;|WEB0671: Loading application [cargocpc] at [/cargocpc]|#]
 
-[#|2014-01-04T02:35:14.548+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=38;_ThreadName=Thread-2;|WEB0671: Loading application [Tweety-1.0-SNAPSHOT] at [/Tweety]|#]
+[#|2014-01-09T15:25:11.664+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=91;_ThreadName=Thread-2;|cargocpc was successfully deployed in 118 milliseconds.|#]
 
-[#|2014-01-04T02:35:14.619+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=38;_ThreadName=Thread-2;|Tweety-1.0-SNAPSHOT was successfully deployed in 3,530 milliseconds.|#]
+[#|2014-01-09T15:26:29.279+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.core.XmlConfigLoader|_ThreadID=106;_ThreadName=Thread-2;|Not a Jar or Directory? G:\jeudiprojet\maven\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT|#]
 
-[#|2014-01-04T02:35:15.111+0100|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=91;_ThreadName=Thread-2;|WEB0671: Loading application [cargocpc] at [/cargocpc]|#]
+[#|2014-01-09T15:26:29.282+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.core.XmlConfigLoader|_ThreadID=106;_ThreadName=Thread-2;|Not a Jar or Directory? G:\jeudiprojet\maven\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT|#]
 
-[#|2014-01-04T02:35:15.123+0100|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=91;_ThreadName=Thread-2;|cargocpc was successfully deployed in 116 milliseconds.|#]
+[#|2014-01-09T15:26:29.421+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.util.ClassPathSearch|_ThreadID=106;_ThreadName=Thread-2;|Error: expected classPath entry [G:\jeudiprojet\maven\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT] to be a directory or a .jar file but it is not either of those?|#]
 
-[#|2014-01-04T02:35:52.665+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|jee.model.Utilisateur@35b056|#]
+[#|2014-01-09T15:26:29.421+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.core.BootupClassPathSearch|_ThreadID=106;_ThreadName=Thread-2;|Classpath search hits in jars[ebean-2.8.1.jar] pkgs[com.avaje.ebeaninternal.server.bean, com.avaje.ebean.meta, jee.model]  searchTime[77]|#]
 
-[#|2014-01-04T02:35:52.803+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.core.XmlConfigLoader|_ThreadID=104;_ThreadName=Thread-2;|Not a Jar or Directory? G:\jeudiprojet\maven\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT|#]
+[#|2014-01-09T15:26:29.476+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.lib.sql.DataSourcePool|_ThreadID=106;_ThreadName=Thread-2;|DataSourcePool [h2] autoCommit[false] transIsolation[READ_COMMITTED] min[1] max[25]|#]
 
-[#|2014-01-04T02:35:52.806+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.core.XmlConfigLoader|_ThreadID=104;_ThreadName=Thread-2;|Not a Jar or Directory? G:\jeudiprojet\maven\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT|#]
+[#|2014-01-09T15:26:30.138+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.core.DefaultServerFactory|_ThreadID=106;_ThreadName=Thread-2;|DatabasePlatform name:h2 platform:h2|#]
 
-[#|2014-01-04T02:35:52.945+0100|SEVERE|glassfish3.1.2|com.avaje.ebeaninternal.server.util.ClassPathSearch|_ThreadID=104;_ThreadName=Thread-2;|Error: expected classPath entry [G:\jeudiprojet\maven\target\cargo\configurations\glassfish3x\cargo-domain\generated\Tweety-1.0-SNAPSHOT] to be a directory or a .jar file but it is not either of those?|#]
+[#|2014-01-09T15:26:30.222+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.subclass.SubClassManager|_ThreadID=106;_ThreadName=Thread-2;|SubClassFactory parent ClassLoader [org.glassfish.web.loader.WebappClassLoader]|#]
 
-[#|2014-01-04T02:35:52.946+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.core.BootupClassPathSearch|_ThreadID=104;_ThreadName=Thread-2;|Classpath search hits in jars[ebean-2.8.1.jar] pkgs[com.avaje.ebeaninternal.server.bean, com.avaje.ebean.meta, jee.model]  searchTime[76]|#]
+[#|2014-01-09T15:26:30.947+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager|_ThreadID=106;_ThreadName=Thread-2;|Entities enhanced[0] subclassed[3]|#]
 
-[#|2014-01-04T02:35:52.991+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.lib.sql.DataSourcePool|_ThreadID=104;_ThreadName=Thread-2;|DataSourcePool [h2] autoCommit[false] transIsolation[READ_COMMITTED] min[1] max[25]|#]
+[#|2014-01-09T15:26:31.282+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|runScript|#]
 
-[#|2014-01-04T02:35:53.632+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.core.DefaultServerFactory|_ThreadID=104;_ThreadName=Thread-2;|DatabasePlatform name:h2 platform:h2|#]
+[#|2014-01-09T15:26:31.283+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 1 of 8 SET REFERENTIAL_INTEGRITY FALSE|#]
 
-[#|2014-01-04T02:35:53.711+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.subclass.SubClassManager|_ThreadID=104;_ThreadName=Thread-2;|SubClassFactory parent ClassLoader [org.glassfish.web.loader.WebappClassLoader]|#]
+[#|2014-01-09T15:26:31.285+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 2 of 8 drop table if exists abonnement|#]
 
-[#|2014-01-04T02:35:54.435+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager|_ThreadID=104;_ThreadName=Thread-2;|Entities enhanced[0] subclassed[3]|#]
+[#|2014-01-09T15:26:31.285+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 3 of 8 drop table if exists tweet|#]
 
-[#|2014-01-04T02:35:54.670+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|runScript|#]
+[#|2014-01-09T15:26:31.286+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 4 of 8 drop table if exists utilisateur|#]
 
-[#|2014-01-04T02:35:54.670+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 1 of 8 SET REFERENTIAL_INTEGRITY FALSE|#]
+[#|2014-01-09T15:26:31.286+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 5 of 8 SET REFERENTIAL_INTEGRITY TRUE|#]
 
-[#|2014-01-04T02:35:54.672+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 2 of 8 drop table if exists abonnement|#]
+[#|2014-01-09T15:26:31.286+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 6 of 8 drop sequence if exists abonnement_seq|#]
 
-[#|2014-01-04T02:35:54.672+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 3 of 8 drop table if exists tweet|#]
+[#|2014-01-09T15:26:31.286+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 7 of 8 drop sequence if exists tweet_seq|#]
 
-[#|2014-01-04T02:35:54.672+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 4 of 8 drop table if exists utilisateur|#]
+[#|2014-01-09T15:26:31.287+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 8 of 8 drop sequence if exists utilisateur_seq|#]
 
-[#|2014-01-04T02:35:54.673+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 5 of 8 SET REFERENTIAL_INTEGRITY TRUE|#]
+[#|2014-01-09T15:26:31.287+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|... end of script|#]
 
-[#|2014-01-04T02:35:54.673+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 6 of 8 drop sequence if exists abonnement_seq|#]
+[#|2014-01-09T15:26:31.298+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|runScript|#]
 
-[#|2014-01-04T02:35:54.673+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 7 of 8 drop sequence if exists tweet_seq|#]
+[#|2014-01-09T15:26:31.298+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 1 of 10 create table abonnement ( id                        bigint not null, email_ajout...|#]
 
-[#|2014-01-04T02:35:54.673+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 8 of 8 drop sequence if exists utilisateur_seq|#]
+[#|2014-01-09T15:26:31.299+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 2 of 10 create table tweet ( id                        bigint not null, datepublication...|#]
 
-[#|2014-01-04T02:35:54.674+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|... end of script|#]
+[#|2014-01-09T15:26:31.300+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 3 of 10 create table utilisateur ( username                  varchar(255) not null, emai...|#]
 
-[#|2014-01-04T02:35:54.683+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|runScript|#]
+[#|2014-01-09T15:26:31.301+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 4 of 10 create sequence abonnement_seq|#]
 
-[#|2014-01-04T02:35:54.683+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 1 of 10 create table abonnement ( id                        bigint not null, email_ajout...|#]
+[#|2014-01-09T15:26:31.304+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 5 of 10 create sequence tweet_seq|#]
 
-[#|2014-01-04T02:35:54.684+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 2 of 10 create table tweet ( id                        bigint not null, datepublication...|#]
+[#|2014-01-09T15:26:31.304+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 6 of 10 create sequence utilisateur_seq|#]
 
-[#|2014-01-04T02:35:54.685+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 3 of 10 create table utilisateur ( username                  varchar(255) not null, emai...|#]
+[#|2014-01-09T15:26:31.305+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 7 of 10 alter table abonnement add constraint fk_abonnement_user_1 foreign key (Proprio_...|#]
 
-[#|2014-01-04T02:35:54.685+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 4 of 10 create sequence abonnement_seq|#]
+[#|2014-01-09T15:26:31.324+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 8 of 10 create index ix_abonnement_user_1 on abonnement (Proprio_Email)|#]
 
-[#|2014-01-04T02:35:54.688+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 5 of 10 create sequence tweet_seq|#]
+[#|2014-01-09T15:26:31.324+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 9 of 10 alter table tweet add constraint fk_tweet_user_2 foreign key (user_username) ref...|#]
 
-[#|2014-01-04T02:35:54.689+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 6 of 10 create sequence utilisateur_seq|#]
+[#|2014-01-09T15:26:31.325+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|executing 10 of 10 create index ix_tweet_user_2 on tweet (user_username)|#]
 
-[#|2014-01-04T02:35:54.689+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 7 of 10 alter table abonnement add constraint fk_abonnement_user_1 foreign key (Proprio_...|#]
+[#|2014-01-09T15:26:31.326+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|... end of script|#]
 
-[#|2014-01-04T02:35:54.715+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 8 of 10 create index ix_abonnement_user_1 on abonnement (Proprio_Email)|#]
+[#|2014-01-09T15:26:31.367+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.transaction.log.FileTransactionLoggerWrapper|_ThreadID=106;_ThreadName=Thread-2;|Transaction logs in: logs|#]
 
-[#|2014-01-04T02:35:54.715+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 9 of 10 alter table tweet add constraint fk_tweet_user_2 foreign key (Tweet_userID) refe...|#]
+[#|2014-01-09T15:26:31.367+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|creating user|#]
 
-[#|2014-01-04T02:35:54.716+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|executing 10 of 10 create index ix_tweet_user_2 on tweet (Tweet_userID)|#]
+[#|2014-01-09T15:26:40.165+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|findById test|#]
 
-[#|2014-01-04T02:35:54.717+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|... end of script|#]
-
-[#|2014-01-04T02:35:54.758+0100|INFO|glassfish3.1.2|com.avaje.ebeaninternal.server.transaction.log.FileTransactionLoggerWrapper|_ThreadID=104;_ThreadName=Thread-2;|Transaction logs in: logs|#]
-
-[#|2014-01-04T02:35:54.758+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|creating user|#]
-
-[#|2014-01-04T02:36:25.437+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|findById j@j.com|#]
-
-[#|2014-01-04T02:36:25.568+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|<sql summary='Utilisateur' >
+[#|2014-01-09T15:26:40.296+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=106;_ThreadName=Thread-2;|<sql summary='Utilisateur' >
 select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4 
 from utilisateur t0 
-where t0.email = ?  and t0.password = ? 
-</sql>|#]
-
-[#|2014-01-04T02:36:25.606+0100|INFO|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=104;_ThreadName=Thread-2;|<sql mode='+lazy' summary='Utilisateur +many:TweetList' load='path:TweetList batch:1 actual:1' >
-select t0.username c0
-        , t1.id c1, t1.datepublication c2, t1.label c3, t1.sujet c4, t1.taguser c5, t1.Tweet_userID c6 
-from utilisateur t0
-left outer join tweet t1 on t1.Tweet_userID = t0.username 
-where t0.username = ?   
-order by t0.username
+where t0.username = ?  and t0.password = ? 
 </sql>|#]
 

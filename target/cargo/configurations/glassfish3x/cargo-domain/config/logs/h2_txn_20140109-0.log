@@ -1,0 +1,5 @@
+txn[1003], 15:26:31.351, insert into utilisateur (username, email, password, sexe, date_inscription) values (?,?,?,?,?) 
+txn[1003], 15:26:31.357, Binding Insert [utilisateur]  set[username=test, email=t@t.com, password=202cb962ac59075b964b07152d234b70, sexe=male, date_inscription=Thu Jan 09 15:26:29 CET 2014, ] 
+txn[1003], 15:26:31.359, Inserted [Utilisateur] [test] 
+txn[1004], 15:26:40.296, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  and t0.password = ?  
+txn[1004], 15:26:40.309, FindMany type[Utilisateur] origin[Dzt5KW.0FzGH.BvQztc] exeMicros[13022] rows[1] name[] predicates[t0.username = ?  and t0.password = ? ] bind[test, 202cb962ac59075b964b07152d234b70] 

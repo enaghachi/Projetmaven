@@ -12,7 +12,7 @@ create table tweet (
   label                     varchar(255),
   sujet                     varchar(255),
   taguser                   varchar(255),
-  Tweet_userID              varchar(255),
+  user_username             varchar(255),
   constraint pk_tweet primary key (id))
 ;
 
@@ -33,7 +33,7 @@ create sequence utilisateur_seq;
 
 alter table abonnement add constraint fk_abonnement_user_1 foreign key (Proprio_Email) references utilisateur (username) on delete restrict on update restrict;
 create index ix_abonnement_user_1 on abonnement (Proprio_Email);
-alter table tweet add constraint fk_tweet_user_2 foreign key (Tweet_userID) references utilisateur (username) on delete restrict on update restrict;
-create index ix_tweet_user_2 on tweet (Tweet_userID);
+alter table tweet add constraint fk_tweet_user_2 foreign key (user_username) references utilisateur (username) on delete restrict on update restrict;
+create index ix_tweet_user_2 on tweet (user_username);
 
 

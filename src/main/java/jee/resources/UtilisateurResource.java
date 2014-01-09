@@ -11,7 +11,6 @@ import com.avaje.ebean.SqlUpdate;
 import com.avaje.ebean.Transaction;
 import com.avaje.ebean.annotation.Transactional;
 import java.security.NoSuchAlgorithmException;
-import static java.sql.DriverManager.println;
 import jee.model.Utilisateur;
 import java.util.Date;
 import java.util.List;
@@ -48,9 +47,13 @@ public class UtilisateurResource {
     @Consumes({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public Utilisateur adduser(Utilisateur user) {
-        System.out.print(user);
          String passwordhashe = MD5Password.getEncodedPassword(user.getPassword());
-          Utilisateur saveuser = new Utilisateur(user.getUsername(),passwordhashe,user.getSexe(),user.getEmail(),new Date());
+          Utilisateur saveuser = new Utilisateur();
+          saveuser.setUsername(user.getUsername());
+          saveuser.setPassword(passwordhashe);
+          saveuser.setSexe(user.getSexe());
+          saveuser.setEmail(user.getEmail());
+          saveuser.setDate_inscription(new Date());
           Ebean.save(saveuser);
           System.out.println("creating user");
           return saveuser;
@@ -68,7 +71,7 @@ public class UtilisateurResource {
     @GET @Path("{username}/{password}")
     @Produces(MediaType.APPLICATION_JSON)
         public Response login(@CookieParam("authCookie") Cookie authenciateCookie,@PathParam("username") String username, @PathParam("password") String password) throws NoSuchAlgorithmException {
-           
+            
             if (authenciateCookie != null) {
              return Response.status(new Status(Status.USER_ONLINE)).build();
             }
@@ -78,8 +81,8 @@ public class UtilisateurResource {
                                                                     .eq("username", username)
                                                                     .eq("password", passwordhashe).findUnique();
                     if(user != null){
-                    NewCookie cookie = new NewCookie("authCookie", String.valueOf(user.getUsername()), "/", "localhost", "", 1000, false);
-                    return Response.ok(user, MediaType.APPLICATION_JSON).status(Status.OK).cookie(cookie).build();
+                        NewCookie cookie = new NewCookie("authCookie",user.getUsername(), "/", "localhost", "", 1000, false);
+                        return Response.ok(user, MediaType.APPLICATION_JSON).status(Status.OK).cookie(cookie).build();
                     }else{
                         return Response.status(new Status(Status.USER_NO_ACCOUNT)).build();
                     }
@@ -91,10 +94,10 @@ public class UtilisateurResource {
   public Response logout() {        
     NewCookie cookie = new NewCookie("authCookie", "-1", "/", "localhost", "", 0, false);
     return Response.status(new Status(Status.OK)).cookie(cookie).build();
+    
   }
         
-
-
+    
         
    
 }
