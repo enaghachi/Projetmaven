@@ -13,7 +13,7 @@ $('#adduser').click(function() {
 
 //connection
 $('#login').click(function(){
-    alert('login');
+  // alert('login');
    connection();
    return false;
 });
@@ -119,11 +119,11 @@ function login(username,password){
                                                 '<form method="post" id="form-addTweet">'+
                                                     '<tr>'+
                                                             '<td colspan="2" align="center">'+
-                                                            '<textarea cols="50" rows="8" id="areaTweet" name="contenu" placeholder="écrire un nouveau Tweet"></textarea>'+
+                                                            '<textarea cols="50" rows="8" id="areaTweet" name="areaTweet" placeholder="écrire un nouveau Tweet"></textarea>'+
                                                             '</td>'+
                                                     '</tr>'+
                                                     '<tr>'+
-                                                            '<td><input type="hidden" name="username" id="usernameonline" value="'+username+'"> </td>'+
+                                                            '<td><input type="hidden" name="usernameonline" id="usernameonline" value="'+username+'"> </td>'+
                                                             '<td align="right" ><button class="button gray medium" value="publier" id="publier_button">Publier</button></td>'+
                                                     '</tr>'+	
                                                 '</form>'+
@@ -132,15 +132,13 @@ function login(username,password){
                                               '</div>');
                         $('#main_contant').html( '<div class="center_frame">'+
                                      '<h2>Les tweets</h2>'+
-                                           '<div class="box_2" id="List_Tweet"> <img src="bootstrap/img/box_2.png" alt=""  class="main_img_2" />'+
-                                                 '<div class="text">'+
-                                                  ' <h6>@tweet.user.username</h6>'+
-                                                   '<h5>@tweet.creationDate</h5>'+
-                                                   '<p>contenu de tweet</p>'+
-                                                 '</div>'+       
-                                           '</div> '+                                                                        
+                                        '<div id="List_Tweet">'+ 
+                                         '</div>'+
                                     ' </div>');                                                    
-                        bindLogoutEvent();                                       
+                        bindLogoutEvent();    
+                        bindaddTweetEvent();
+                        bindListTweetEvent();
+                        binddeleteTweetEvent();
                     },
                
                  error: function(jqXHR, textStatus, errorThrown){
@@ -180,6 +178,7 @@ function adduser() {
 //deconnection
 function bindaddTweetEvent() {
 $('#publier_button').click(function(){
+    //alert("idididididiididididididi");
     alert("addTweet");
     addTweet();
     return false;
@@ -198,9 +197,9 @@ function addTweet(){
                 //dataType: "json",  // Le type de données à recevoir de service, ici, du json.
                 data:data, //FormaddtweetToJSON(),
                 success : function(d, textStatus, jqXHR){
-                    alert("tweet ajouté");
+                    alert("tweet ajouté_add tweet");
                     // On ajoute le Tweet dans la page
-                    alert("avantprepend");
+                    alert("avantprepend_add tweet");
                     $.get(d,function(data){
                         alert("apresprepend");
                         $("#List_Tweet").prepend(renderItem(data.id, data.label, data.sujet, data.datepublication,data.Taguser,data.user.username));  
@@ -218,17 +217,18 @@ function addTweet(){
 function bindListTweetEvent(){
     $.get(rootURL+"/Tweet/0/5",function(data){
         var i = 0;
-        alert ("data "+data);
+        alert("attendtion");
+        alert ("data "+data.toString());
         if(data != null) {
             alert("avantdataeach");
-             $(data.valueOf()).each(function(){
-                 alert("apresdataeach");
-                i++
-                $("#List_Tweet").prepend(renderItem(this.id, this.label, this.sujet, this.datepublication, this.Taguser, this.user));
+             $.each(data,function(key, val){
+                 alert("apresdataeach111111111");
+                i++;
+                $("#List_Tweet").prepend(renderItem(val.id, val.label, val.sujet, val.datepublication, val.Taguser, val.user.username));
             });
-            if(i==0)
+            if(i==0){
                 showWelcome();
-                $("#loadmore").remove();
+            }
             // Si on est venu ici après une suppression on supprime le lien
             // "load more"
             if(removeLoadMore()){
@@ -239,7 +239,7 @@ function bindListTweetEvent(){
                 // Si on vient ici après la publication d'un nouveau Tweet on
                 // fait apparitre le bouton "load more"
                 console.log("INSERT");
-                $("<div id='loadmore'><a href='#' id='load' >J'en veux plus !</a></div>").insertAfter("#List_Tweet");
+                $("<div id='loadmore'><a href='#' id='load' >J'en veux plus !</a></div>").insertAfter("#main_contant");
             }
         }
        
@@ -283,13 +283,18 @@ function formToJSON() {
 
 //message si on a aucun Tweet
 function showWelcome(){
-        $("#List_Tweet").html("<div id='welcome'>Aucun Tweet n'est présent.</div>");
+        $("#List_Tweet").html('<div class="box_2"><img src="bootstrap/img/box_2.png" alt=""  class="main_img_2" />'+
+                                                 '<div class="text">'+
+                                                  ' <h6>'+userpropr+'</h6>'+
+                                                   '<h5>'+strDate+'</h5>'+
+                                                   '<p>'+label+' #'+sujet+' @'+Taguser+'</p>'+
+                                                 '</div></div>');
     } 
 //suppression du lien loadMore   
 function removeLoadMore()
     {
         $.get("http://localhost:9000/Tweety/resources/Tweet/count",function(data){
-            var i = $("#List_Tweet").children().length;
+            var i = $("#List_Tweet").children().length && i<5;
             console.log("dans la bd : "+data+" | sur le site : "+i);
             if(data == i){
                 return true;
@@ -304,19 +309,15 @@ function removeLoadMore()
         var strDate = "";
         strDate += myDate.getUTCDate()+"/"+myDate.getMonth()+"/"+myDate.getFullYear();
         strDate += " à "+myDate.getHours()+":"+myDate.getMinutes();
-        return "<div class='Tweet' id='Tweet-"+id+"'>\
-                <h2>"+label+"</h2>\
-                <p class='sujet'>"+sujet+"</p>\\n\
-                <p class='Taguser'>"+Taguser+"</p>\\n\
-                <p class='userpropr'>"+userpropr+"</p>\\n\
-                <div class='postmeta'>\n\
-                    <p class='alignleft'>Article publi&eacute; le "+strDate+"</p>\n\
-                    <p class='alignright'>\n\
-                        <a class='button blue delete' href='http://localhost:9000/Tweety/resources/Tweet"+id+"'>Supprimer</a>\n\
-                    </p>\n\
-                </div>\n\
-                    <div class='clearfix'></div>\
-                </div>";
+        return '<div class="box_2"><img src="bootstrap/img/box_2.png" alt=""  class="main_img_2" />'+
+                                                 '<div class="text">'+
+                                                  ' <h6>'+userpropr+'</h6>'+
+                                                   '<h5>'+strDate+'</h5>'+
+                                                   '<p>'+label+' #'+sujet+' @'+Taguser+'</p>'+
+                                                 '</div></div>';      
+                                          
+
+                        //<a class='button blue delete' href='http://localhost:9000/Tweety/resources/Tweet"+id+"'>Supprimer</a>\n\
     }
  
 $().ready(function(){

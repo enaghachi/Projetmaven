@@ -1,0 +1,69 @@
+txn[1003], 17:13:15.297, insert into utilisateur (username, email, password, sexe, date_inscription) values (?,?,?,?,?) 
+txn[1003], 17:13:15.302, Binding Insert [utilisateur]  set[username=jin, email=j@j.com, password=202cb962ac59075b964b07152d234b70, sexe=male, date_inscription=Fri Jan 10 17:13:13 CET 2014, ] 
+txn[1003], 17:13:15.305, Inserted [Utilisateur] [jin] 
+txn[1004], 17:13:23.547, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  and t0.password = ?  
+txn[1004], 17:13:23.560, FindMany type[Utilisateur] origin[Dzt5KW.0FzGH.BvQztc] exeMicros[13181] rows[1] name[] predicates[t0.username = ?  and t0.password = ? ] bind[jin, 202cb962ac59075b964b07152d234b70] 
+txn[1005], 17:13:25.456, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0  order by t0.datepublication  limit 6 
+txn[1005], 17:13:25.459, FindMany type[Tweet] origin[BTt8wL.B98G8Z.BvQztc] exeMicros[3428] rows[0] name[] predicates[] bind[] 
+txn[1006], 17:13:34.057, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  
+txn[1006], 17:13:34.057, FindMany type[Utilisateur] origin[ieEQh.0FzGH.BvQztc] exeMicros[473] rows[1] name[] predicates[t0.username = ? ] bind[jin] 
+txn[1007], 17:13:34.083, insert into tweet (id, datepublication, label, sujet, taguser, user_username) values (?,?,?,?,?,?) 
+txn[1007], 17:13:34.084, Binding Insert [tweet]  set[id=1, datepublication=Fri Jan 10 17:13:34 CET 2014, label=1, sujet=, Taguser=null, user_username=jin, ] 
+txn[1007], 17:13:34.084, Inserted [Tweet] [1] 
+txn[1008], 17:13:35.068, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0  where t0.id = ?  
+txn[1008], 17:13:35.070, FindMany type[Tweet] origin[CboemH.B98G8Z.BvQztc] exeMicros[1776] rows[1] name[] predicates[t0.id = ? ] bind[1] 
+txn[1009], 17:13:35.083, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0 where t0.username = ?   
+txn[1009], 17:13:35.084, FindMany mode[+lazy] type[Utilisateur] origin[CboemH.B98G8Z.BvQztc] lazyLoadProp[email] load[path:user batch:1 actual:1] exeMicros[549] rows[1] name[] predicates[] bind[jin] 
+txn[1010], 17:13:43.241, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  
+txn[1010], 17:13:43.241, FindMany type[Utilisateur] origin[ieEQh.0FzGH.BvQztc] exeMicros[401] rows[1] name[] predicates[t0.username = ? ] bind[jin] 
+txn[1011], 17:13:43.242, insert into tweet (id, datepublication, label, sujet, taguser, user_username) values (?,?,?,?,?,?) 
+txn[1011], 17:13:43.242, Binding Insert [tweet]  set[id=2, datepublication=Fri Jan 10 17:13:43 CET 2014, label=2, sujet=, Taguser=null, user_username=jin, ] 
+txn[1011], 17:13:43.242, Inserted [Tweet] [2] 
+txn[1012], 17:13:44.374, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0  where t0.id = ?  
+txn[1012], 17:13:44.375, FindMany type[Tweet] origin[CboemH.B98G8Z.BvQztc] exeMicros[347] rows[1] name[] predicates[t0.id = ? ] bind[2] 
+txn[1013], 17:13:44.375, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0 where t0.username = ?   
+txn[1013], 17:13:44.375, FindMany mode[+lazy] type[Utilisateur] origin[CboemH.B98G8Z.BvQztc] lazyLoadProp[email] load[path:user batch:1 actual:1] exeMicros[212] rows[1] name[] predicates[] bind[jin] 
+txn[1014], 17:13:51.913, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  
+txn[1014], 17:13:51.913, FindMany type[Utilisateur] origin[ieEQh.0FzGH.BvQztc] exeMicros[256] rows[1] name[] predicates[t0.username = ? ] bind[jin] 
+txn[1015], 17:13:51.913, insert into tweet (id, datepublication, label, sujet, taguser, user_username) values (?,?,?,?,?,?) 
+txn[1015], 17:13:51.913, Binding Insert [tweet]  set[id=3, datepublication=Fri Jan 10 17:13:51 CET 2014, label=3, sujet=, Taguser=null, user_username=jin, ] 
+txn[1015], 17:13:51.914, Inserted [Tweet] [3] 
+txn[1016], 17:13:51.952, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0  where t0.id = ?  
+txn[1016], 17:13:51.952, FindMany type[Tweet] origin[CboemH.B98G8Z.BvQztc] exeMicros[404] rows[1] name[] predicates[t0.id = ? ] bind[3] 
+txn[1017], 17:13:51.953, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0 where t0.username = ?   
+txn[1017], 17:13:51.954, FindMany mode[+lazy] type[Utilisateur] origin[CboemH.B98G8Z.BvQztc] lazyLoadProp[email] load[path:user batch:1 actual:1] exeMicros[282] rows[1] name[] predicates[] bind[jin] 
+txn[1018], 17:13:54.231, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  
+txn[1018], 17:13:54.232, FindMany type[Utilisateur] origin[ieEQh.0FzGH.BvQztc] exeMicros[555] rows[1] name[] predicates[t0.username = ? ] bind[jin] 
+txn[1019], 17:13:54.232, insert into tweet (id, datepublication, label, sujet, taguser, user_username) values (?,?,?,?,?,?) 
+txn[1019], 17:13:54.233, Binding Insert [tweet]  set[id=4, datepublication=Fri Jan 10 17:13:54 CET 2014, label=4, sujet=, Taguser=null, user_username=jin, ] 
+txn[1019], 17:13:54.233, Inserted [Tweet] [4] 
+txn[1020], 17:13:54.251, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0  where t0.id = ?  
+txn[1020], 17:13:54.252, FindMany type[Tweet] origin[CboemH.B98G8Z.BvQztc] exeMicros[293] rows[1] name[] predicates[t0.id = ? ] bind[4] 
+txn[1021], 17:13:54.284, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0 where t0.username = ?   
+txn[1021], 17:13:54.284, FindMany mode[+lazy] type[Utilisateur] origin[CboemH.B98G8Z.BvQztc] lazyLoadProp[email] load[path:user batch:1 actual:1] exeMicros[174] rows[1] name[] predicates[] bind[jin] 
+txn[1022], 17:13:58.821, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  
+txn[1022], 17:13:58.822, FindMany type[Utilisateur] origin[ieEQh.0FzGH.BvQztc] exeMicros[843] rows[1] name[] predicates[t0.username = ? ] bind[jin] 
+txn[1023], 17:13:58.823, insert into tweet (id, datepublication, label, sujet, taguser, user_username) values (?,?,?,?,?,?) 
+txn[1023], 17:13:58.824, Binding Insert [tweet]  set[id=5, datepublication=Fri Jan 10 17:13:58 CET 2014, label=5, sujet=, Taguser=null, user_username=jin, ] 
+txn[1023], 17:13:58.824, Inserted [Tweet] [5] 
+txn[1024], 17:13:58.842, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0  where t0.id = ?  
+txn[1024], 17:13:58.843, FindMany type[Tweet] origin[CboemH.B98G8Z.BvQztc] exeMicros[372] rows[1] name[] predicates[t0.id = ? ] bind[5] 
+txn[1025], 17:13:58.843, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0 where t0.username = ?   
+txn[1025], 17:13:58.843, FindMany mode[+lazy] type[Utilisateur] origin[CboemH.B98G8Z.BvQztc] lazyLoadProp[email] load[path:user batch:1 actual:1] exeMicros[189] rows[1] name[] predicates[] bind[jin] 
+txn[1026], 17:14:03.529, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  
+txn[1026], 17:14:03.530, FindMany type[Utilisateur] origin[ieEQh.0FzGH.BvQztc] exeMicros[603] rows[1] name[] predicates[t0.username = ? ] bind[jin] 
+txn[1027], 17:14:03.530, insert into tweet (id, datepublication, label, sujet, taguser, user_username) values (?,?,?,?,?,?) 
+txn[1027], 17:14:03.531, Binding Insert [tweet]  set[id=6, datepublication=Fri Jan 10 17:14:03 CET 2014, label=6, sujet=, Taguser=null, user_username=jin, ] 
+txn[1027], 17:14:03.531, Inserted [Tweet] [6] 
+txn[1028], 17:14:03.551, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0  where t0.id = ?  
+txn[1028], 17:14:03.551, FindMany type[Tweet] origin[CboemH.B98G8Z.BvQztc] exeMicros[319] rows[1] name[] predicates[t0.id = ? ] bind[6] 
+txn[1029], 17:14:03.552, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0 where t0.username = ?   
+txn[1029], 17:14:03.552, FindMany mode[+lazy] type[Utilisateur] origin[CboemH.B98G8Z.BvQztc] lazyLoadProp[email] load[path:user batch:1 actual:1] exeMicros[201] rows[1] name[] predicates[] bind[jin] 
+txn[1030], 17:14:15.344, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  and t0.password = ?  
+txn[1030], 17:14:15.344, FindMany type[Utilisateur] origin[Dzt5KW.0FzGH.BvQztc] exeMicros[573] rows[1] name[] predicates[t0.username = ?  and t0.password = ? ] bind[jin, 202cb962ac59075b964b07152d234b70] 
+txn[1031], 17:14:15.373, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0  order by t0.datepublication  limit 6 
+txn[1031], 17:14:15.374, FindMany type[Tweet] origin[BTt8wL.B98G8Z.BvQztc] exeMicros[1108] rows[5] name[] predicates[] bind[] 
+txn[1032], 17:14:15.375, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0 where t0.username = ?   
+txn[1032], 17:14:15.375, FindMany mode[+lazy] type[Utilisateur] origin[BTt8wL.B98G8Z.BvQztc] lazyLoadProp[email] load[path:user batch:1 actual:1] exeMicros[224] rows[1] name[] predicates[] bind[jin] 
+txn[1033], 17:14:15.412, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0 
+txn[1033], 17:14:15.413, FindMany type[Tweet] origin[BWHTbB.B98G8Z.BvQztc] exeMicros[1593] rows[6] name[] predicates[] bind[] 

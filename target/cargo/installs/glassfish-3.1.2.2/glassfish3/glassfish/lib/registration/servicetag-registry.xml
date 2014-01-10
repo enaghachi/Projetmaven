@@ -41,7 +41,7 @@
 
 --><registry>
   <service_tag>
-    <instance_urn>urn:st:0a9df642-456c-49c1-aaff-5f1ea7e309b8</instance_urn>
+    <instance_urn>urn:st:56277730-257f-4559-9165-f4bb8a5232b6</instance_urn>
     <product_name>Oracle GlassFish Server</product_name>
     <product_version>3.1</product_version>
     <product_urn>urn:uuid:05617256-0677-11dd-8282-080020a9ed93</product_urn>
