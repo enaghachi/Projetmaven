@@ -94,6 +94,7 @@ public class UtilisateurResource {
   public Response logout() {        
     NewCookie cookie = new NewCookie("authCookie", "-1", "/", "localhost", "", 0, false);
     return Response.status(new Status(Status.OK)).cookie(cookie).build();
+    
   }
         
     

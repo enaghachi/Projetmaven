@@ -11,9 +11,12 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
+import javax.xml.bind.annotation.XmlTransient;
 import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @Entity
+     
 public class Utilisateur implements Serializable{
         private static final long serialVersionUID = 1L;
         @Id
@@ -120,13 +123,17 @@ public class Utilisateur implements Serializable{
     /**
      * @return the TweetList
      */
+   @JsonIgnore
     public List<Tweet> getTweetList() {
         return TweetList;
     }
-
+   
     public void setTweetList(List<Tweet> TweetList) {
         this.TweetList = TweetList;
     }
+    
+
+
     
 
      

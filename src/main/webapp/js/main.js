@@ -4,6 +4,8 @@ var rootURL = "http://localhost:9000/Tweety/resources";
 //inscription d’un user 
 function bindEventsOnReady() {
 
+
+
 $('#adduser').click(function() {
         adduser();
         return false;
@@ -11,10 +13,12 @@ $('#adduser').click(function() {
 
 //connection
 $('#login').click(function(){
+  // alert('login');
    connection();
-  return false;
+   return false;
 });
 }
+
 
 function connection() {
     var usernamelog = $('#usernameconnct').val();
@@ -35,7 +39,7 @@ function connection() {
 //deconnection
 function bindLogoutEvent() {
 $('#Logout').click(function(){
-    alert("logout");
+   alert("ici");
     logout();
     return false;
  });
@@ -51,10 +55,10 @@ function logout(){
          success: function(data){
                     alert ("vous etes deconnecté");
                     window.location.href="index.html";
-                    $('#resultat').html('</br><h4> vous étes déconnecté(e) </h4>');
+                  
                 },
          error: function(jqXHR, textStatus, errorThrown){
-             alert ("problème de deconnection");
+             alert ("problème de deconnection:"+errorThrown);
          }
     });
 }
@@ -62,26 +66,75 @@ function logout(){
 //fonction de connection
 function login(username,password){
         console.log('username'+username);
-        alert('username'+username);
+        alert('username'+username+'password'+password);
         $.ajax({
                 type: 'GET',
-                url: rootURL+ '/user' + '/' + username+'/'+password,
-                dataType: "json", // Le type de données à recevoir du service, ici, du json.
+                url: rootURL +'/user/'+ username+'/'+password,
+                dataType: "json",
                 success: function(data){
                     alert(data.toString());
                         alert('user connected successfully');
-                        $('#content').html('<h2> Bienvenue '+username+' dans votre espace personnel<h2> <button id="Logout" > Logout </button>\n\
-                                            <div id="writeTweet">\
-                                                <h4> Ecrire un Tweet </h4>\n\\n\
-                                                <form id="form-addTweet" method="post">\
-                                                <textarea cols="50" rows="5" placeholder="Ecrire un nouveau Tweet" id="areaTweet" name="areaTweet"></textarea>\
-                                                <input type="hidden" id="usernameonline" name="usernameonline" value='+username+'>\n\
-                                                <button id="publier"> publier </button>\n\\n\
-                                                </form>\
-                                            </di>\
-                                            <div id="List_Tweet">\n\
-                                            </div>');
+                        $('#search').html('<form name="recherche">'+
+                                                                    '<input type="text" name="champ" placeholder="Recherche">'+           	
+                                                                    '<input type="button" id="chercher" onClick="controle(recherche)">'+
+                                                      '</form> ');
+                                              
+                         $('#login_div').html('<button class="logout" id="Logout"></button>');                                  
+                         $('#logo_nav').html( '<!--Top Header End Here-->'+
+                                              '<div id="logo_nav">'+
+                                                '<div class="bg1">'+
+                                                  '<div class="center_frame"> '+
+                                                   ' <!--Logo And Navigation Start Here-->'+
+                                                    '<div class="logo"></div>'+
+                                                    '<ul id="navigation">'+
+                                                      '<li><a href="journal.html)"><span>HOME</span></a></li>'+
+                                                     '<li><a href="#"><span>Ma page</span></a></li>'+
+                                                      '<li><a href="#"><span>Mes Amis</span></a></li>'+
+                                                      '<li><a href="#"><span>Mes Abonnes</span></a></li>'+
+                                                      '<li><a href="contact.html"><span>Contact</span></a></li>'+
+                                                    '</ul>'+
+                                                    '<!--Logo And Navigation End Here--> '+
+                                                   ' <!--slider here-->'+
 
+                                                   ' <!--  Outer wrapper for presentation only, this can be anything you like -->'+
+                                                    '<div id="infoPerson"> '+
+                                                    '<table>'+
+                                                    '<tr><td id="name_bien">Bienvenu '+ username+'</td></tr>'+
+                                                    '</table>'+
+
+                                                    '</div>'+
+                                                    '<!-- End outer wrapper --> '+
+
+                                                    '<!--slider end here--> '+
+
+                                                  '</div>'+
+                                                '</div>'+
+                                                ' </div>');                      
+
+                        $('#center_frame').html('<div class="section_left">'+
+                                                '<h5>Nouveau Tweet</h5>'+
+                                              '</div>'+
+                                              '<div class="section_middle">'+
+                                                '<table>'+
+                                                '<form method="post" id="form-addTweet">'+
+                                                    '<tr>'+
+                                                            '<td colspan="2" align="center">'+
+                                                            '<textarea cols="50" rows="8" id="areaTweet" name="areaTweet" placeholder="écrire un nouveau Tweet"></textarea>'+
+                                                            '</td>'+
+                                                    '</tr>'+
+                                                    '<tr>'+
+                                                            '<td><input type="hidden" name="usernameonline" id="usernameonline" value="'+username+'"> </td>'+
+                                                            '<td align="right" ><button class="button gray medium" value="publier" id="publier_button">Publier</button></td>'+
+                                                    '</tr>'+	
+                                                '</form>'+
+                                                '</table>'+
+
+                                              '</div>');
+                        $('#main_contant').html( '<div class="center_frame">'+
+                                     '<h2>Les tweets</h2>'+
+                                        '<div id="List_Tweet">'+ 
+                                         '</div>'+
+                                    ' </div>');                                                    
                         bindLogoutEvent();    
                         bindaddTweetEvent();
                         bindListTweetEvent();
@@ -90,9 +143,9 @@ function login(username,password){
                
                  error: function(jqXHR, textStatus, errorThrown){
                      
-                     alert("status"+jqXHR.status); //affiche le code d erreur
+                     alert("status&&&&&"+jqXHR.status); //affiche le code d erreur
                      
-                        //remplace le contenu de la div 
+                        //remplace le contenu de la div  
                         $('#resultat').html('</br><h4>oups! username ou mot de passe incorrecte! Essaye encore une fois </h4> </br>');
           
                 
@@ -106,15 +159,15 @@ function adduser() {
         console.log('addUser');
         alert('rootURL'+$("#username").val());
         $.ajax({
-                type: 'POST',  // Le type de la requête HTTP, ici devenu POST
+                type: 'POST',
                 contentType: 'application/json',
                 url: rootURL+'/user/add',
-                dataType: "json",  // Le type de données à recevoir, ici, du json.
+                dataType: "json",
                 data: formToJSON(),
                 success: function(data, textStatus, jqXHR){
                         alert('user created successfully');
                         $("#inscription")[0].reset(); // vider les champs du formulaire 
-                        $("#resultat").html('</br> Vous etes bien inscris,<h4> Entrez votre username et votre mot de passe pour se connecter </h4> </br>')
+                       window.location.href="tweety.html";
                 },
                 error: function(jqXHR, textStatus, errorThrown){
                         alert('addUser error: ' + textStatus);
@@ -124,7 +177,8 @@ function adduser() {
 //-------------------------------------Tweet------------------------------------------
 //deconnection
 function bindaddTweetEvent() {
-$('#publier').click(function(){
+$('#publier_button').click(function(){
+    //alert("idididididiididididididi");
     alert("addTweet");
     addTweet();
     return false;
@@ -143,9 +197,9 @@ function addTweet(){
                 //dataType: "json",  // Le type de données à recevoir de service, ici, du json.
                 data:data, //FormaddtweetToJSON(),
                 success : function(d, textStatus, jqXHR){
-                    alert("tweet ajouté");
+                    alert("tweet ajouté_add tweet");
                     // On ajoute le Tweet dans la page
-                    alert("avantprepend");
+                    alert("avantprepend_add tweet");
                     $.get(d,function(data){
                         alert("apresprepend");
                         $("#List_Tweet").prepend(renderItem(data.id, data.label, data.sujet, data.datepublication,data.Taguser,data.user.username));  
@@ -163,17 +217,18 @@ function addTweet(){
 function bindListTweetEvent(){
     $.get(rootURL+"/Tweet/0/5",function(data){
         var i = 0;
-        alert ("data "+data);
+        alert("attendtion");
+        alert ("data "+data.toString());
         if(data != null) {
             alert("avantdataeach");
-             $(data.valueOf()).each(function(){
-                 alert("apresdataeach");
-                i++
-                $("#List_Tweet").prepend(renderItem(this.id, this.label, this.sujet, this.datepublication, this.Taguser, this.user));
+             $.each(data,function(key, val){
+                 alert("apresdataeach111111111");
+                i++;
+                $("#List_Tweet").prepend(renderItem(val.id, val.label, val.sujet, val.datepublication, val.Taguser, val.user.username));
             });
-            if(i==0)
+            if(i==0){
                 showWelcome();
-                $("#loadmore").remove();
+            }
             // Si on est venu ici après une suppression on supprime le lien
             // "load more"
             if(removeLoadMore()){
@@ -184,7 +239,7 @@ function bindListTweetEvent(){
                 // Si on vient ici après la publication d'un nouveau Tweet on
                 // fait apparitre le bouton "load more"
                 console.log("INSERT");
-                $("<div id='loadmore'><a href='#' id='load' >J'en veux plus !</a></div>").insertAfter("#List_Tweet");
+                $("<div id='loadmore'><a href='#' id='load' >J'en veux plus !</a></div>").insertAfter("#main_contant");
             }
         }
        
@@ -228,13 +283,18 @@ function formToJSON() {
 
 //message si on a aucun Tweet
 function showWelcome(){
-        $("#List_Tweet").html("<div id='welcome'>Aucun Tweet n'est présent.</div>");
+        $("#List_Tweet").html('<div class="box_2"><img src="bootstrap/img/box_2.png" alt=""  class="main_img_2" />'+
+                                                 '<div class="text">'+
+                                                  ' <h6>'+userpropr+'</h6>'+
+                                                   '<h5>'+strDate+'</h5>'+
+                                                   '<p>'+label+' #'+sujet+' @'+Taguser+'</p>'+
+                                                 '</div></div>');
     } 
 //suppression du lien loadMore   
 function removeLoadMore()
     {
         $.get("http://localhost:9000/Tweety/resources/Tweet/count",function(data){
-            var i = $("#List_Tweet").children().length;
+            var i = $("#List_Tweet").children().length && i<5;
             console.log("dans la bd : "+data+" | sur le site : "+i);
             if(data == i){
                 return true;
@@ -249,20 +309,17 @@ function removeLoadMore()
         var strDate = "";
         strDate += myDate.getUTCDate()+"/"+myDate.getMonth()+"/"+myDate.getFullYear();
         strDate += " à "+myDate.getHours()+":"+myDate.getMinutes();
-        return "<div class='Tweet' id='Tweet-"+id+"'>\
-                <h2>"+label+"</h2>\
-                <p class='sujet'>"+sujet+"</p>\\n\
-                <p class='Taguser'>"+Taguser+"</p>\\n\
-                <p class='userpropr'>"+userpropr+"</p>\\n\
-                <div class='postmeta'>\n\
-                    <p class='alignleft'>Article publi&eacute; le "+strDate+"</p>\n\
-                    <p class='alignright'>\n\
-                        <a class='button blue delete' href='http://localhost:9000/Tweety/resources/Tweet"+id+"'>Supprimer</a>\n\
-                    </p>\n\
-                </div>\n\
-                    <div class='clearfix'></div>\
-                </div>";
+        return '<div class="box_2"><img src="bootstrap/img/box_2.png" alt=""  class="main_img_2" />'+
+                                                 '<div class="text">'+
+                                                  ' <h6>'+userpropr+'</h6>'+
+                                                   '<h5>'+strDate+'</h5>'+
+                                                   '<p>'+label+' #'+sujet+' @'+Taguser+'</p>'+
+                                                 '</div></div>';      
+                                          
+
+                        //<a class='button blue delete' href='http://localhost:9000/Tweety/resources/Tweet"+id+"'>Supprimer</a>\n\
     }
+ 
 $().ready(function(){
  bindEventsOnReady();
 });
