@@ -32,7 +32,7 @@ public class Abonnement  implements Serializable {
 	private Date date_ajout ;
     
     @ManyToOne(cascade={CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH })
-    @JoinColumn(name="Proprio_Email")
+    @JoinColumn(name="Proprio_username")
 	private Utilisateur user;
 	   
     

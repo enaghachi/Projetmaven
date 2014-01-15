@@ -20,7 +20,7 @@ and open the template in the editor.
 		<script src="bootstrap/js/basic-jquery-slider.js"  type="text/javascript" language="javascript"></script>
 		<script type="text/javascript" src="bootstrap/js/custom.js" language="javascript"></script>
 		<script type="text/javascript" src="bootstrap/js/input.js" language="javascript"></script>
-                <script type="text/javascript" src="js/main.js" language="javascript"></script>
+                <script type="text/javascript" src="js/main_gestionTweet.js" language="javascript"></script>
 		<!--  Attach the plug-in to the slider parent element and adjust the settings as required -->
 		<script  type="text/javascript" language="javascript">
 		      $(document).ready(function() {
@@ -52,35 +52,54 @@ and open the template in the editor.
   <div id="top_header">
     <div class="center_frame">
       <div class="top">
-        <div class="search" id="search"></div>
-        <div class="login" id="login_div"> <a href="tweety.html" class="login_img">&nbsp;</a> <a href="inscription.html" class="register">&nbsp;</a> </div>
+          <div class="search" id="search">
+              <form name="recherche">
+                    <input type="text" name="champ" placeholder="Recherche">           	
+                    <input type="button" id="chercher" onClick="controle(recherche)">
+              </form>
+          </div>
+        <div class="login" id="login_div"> <button class="logout" id="Logout"></button> </div>
       </div>
     </div>
   </div>
   <!--Top Header End Here-->
   <!--Top Header End Here-->
   <div id="logo_nav">
-    <div class="bg">
-      <div class="center_frame"> 
-        <!--Logo And Navigation Start Here-->
-        <div class="logo"> <img src="bootstrap/img/logo.png" alt=""  /> </div>
-        <!--Logo And Navigation End Here--> 
-        <!--CHANGE ONLY THIS PART HERE--> 
-        
-        <!--Project Top Start Here -->
-        <div id="login_detail">
-       
-            <form>
-            <input type="email" name="email" id='usernameconnct' placeholder="Username" class="input_1">
-            <input type="password" name="password" id='passwordconnect' placeholder="Password" class="input_2">
-            <input type="submit" name="submit" value="" id='login' >
-            <a href="inscription" class="not_yet">Nouveau sur Twitter ? Inscrivez-vous</a>
-            </form>
-        </div>
-        <!--Project Top Start Here --> 
-        <!--CHANGE ONLY UPERE PART IN INNER PAGES--> 
+    <!--Top Header End Here-->
+<div id="logo_nav">
+  <div class="bg1">
+    <div class="center_frame"> 
+     <!--Logo And Navigation Start Here-->
+      <div class="logo"></div>
+      <ul id="navigation">
+        <li><a href="journal.html)"><span>HOME</span></a></li>
+       <li><a href="#"><span>Ma page</span></a></li>
+        <li><a><button class="button gray medium" value="publier" id="mes_amis">Mes amis</button></a></li>
+        <li><a href="#"><span>Mes Abonnes</span></a></li>
+        <li><a href="contact.html"><span>Contact</span></a></li>
+     </ul>
+     <!--Logo And Navigation End Here--> 
+     <!--slider here-->
+
+     <!--  Outer wrapper for presentation only, this can be anything you like -->
+      <div id="infoPerson"> 
+      <table>
+           <script language="JavaScript" type="text/javascript"> 
+                var strCookie=document.cookie; 
+                alert(strCookie); 
+                document.write('<tr><td id="name_bien">Bienvenu '+ strCookie+'</td></tr>');
+            </script> 
+      
+      </table>
+
       </div>
+      <!-- End outer wrapper --> 
+
+      <!--slider end here--> 
+
     </div>
+  </div>
+   </div>
   </div>
 </div>
 <!--Header End Here--> 
@@ -90,11 +109,39 @@ and open the template in the editor.
 <div id="wrapper">
     <div id="wrapper_top">
         <div class="center_frame" id="center_frame">
+            <div class="section_left">
+                <h5>Nouveau Tweet</h5>
+              </div>
+              <div class="section_middle">
+                <table>
+                <form method="post" id="form-addTweet">
+                   <tr>
+                           <td colspan="2" align="center">
+                           <textarea cols="50" rows="8" id="areaTweet" name="areaTweet" placeholder="écrire un nouveau Tweet"></textarea>
+                           </td>
+                   </tr>
+                   <tr>
+                            <script language="JavaScript" type="text/javascript"> 
+                                 var strCookie=document.cookie; 
+                                 alert(strCookie); 
+                                 document.write('<td><input type="hidden" name="usernameonline" id="usernameonline" value="'+strCookie+'"> </td>');
+                             </script> 
+                            <td align="right" ><button class="button gray medium" value="publier" id="publier_button">Publier</button></td>
+                   </tr>	
+                </form>
+                </table>
+
+              </div>
         </div>
     </div>
     <!--Top Wrapper End Here--> 
   <!--Main Contant Start Here-->
   <div id="main_contant">
+      <div class="center_frame">
+        <h2>Les tweets</h2>
+            <div id="List_Tweet">
+             </div>
+        </div>
   </div>
   <!-- Main Contant End Here --> 
 </div>

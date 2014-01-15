@@ -29,8 +29,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Cookie;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.NewCookie;
 import javax.ws.rs.core.Response;
+import jee.model.Abonnement;
 
 
 
@@ -66,7 +68,13 @@ public class UtilisateurResource {
         List<Utilisateur> users = Ebean.find(Utilisateur.class).findList();
         return users;
     }
-    
+    @GET @Path("/pageAmis/{username}")
+    @Produces( MediaType.APPLICATION_JSON )
+    public List<Abonnement> getAbonnements(@PathParam("username") String username){
+         List<Abonnement> abonnements = Ebean.find(Abonnement.class).where()
+                                                               .eq("Proprio_username",username).findList();
+         return abonnements;
+    }
     
     @GET @Path("{username}/{password}")
     @Produces(MediaType.APPLICATION_JSON)
