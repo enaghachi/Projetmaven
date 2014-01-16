@@ -76,13 +76,22 @@ public class UtilisateurResource {
          return abonnements;
     }
     
+        @GET @Path("/pageAbonne/{username}")
+    @Produces( MediaType.APPLICATION_JSON )
+    public List<Abonnement> getAbonne(@PathParam("username") String username){
+         List<Abonnement> abonnes = Ebean.find(Abonnement.class).where()
+                                                               .eq("username_ajout",username).findList();
+         return abonnes;
+    }
+    
     @GET @Path("{username}/{password}")
     @Produces(MediaType.APPLICATION_JSON)
         public Response login(@CookieParam("authCookie") Cookie authenciateCookie,@PathParam("username") String username, @PathParam("password") String password) throws NoSuchAlgorithmException {
-            
-            if (authenciateCookie != null) {
-             return Response.status(new Status(Status.USER_ONLINE)).build();
-            }
+//            
+//            if (authenciateCookie.getValue() != null && authenciateCookie.getValue().equals(username)) {
+//                
+//             return Response.status(new Status(Status.USER_ONLINE)).build();
+//            }
                     System.out.println("findById " + username);
                     String passwordhashe = MD5Password.getEncodedPassword(password);
                     Utilisateur user = Ebean.find(Utilisateur.class).where()

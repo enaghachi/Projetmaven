@@ -13,7 +13,10 @@ function bindEventsOnReady() {
                         bindaddTweetEvent();
                         bindListTweetEvent();
                         binddeleteTweetEvent();
-                       // bindPassPageAmisEvent(username);
+                        var strCookie=document.cookie; 
+                        var arr=strCookie.split("=");      
+                        bindPassPageAmisEvent(arr[1]);
+                        bindPassPageAbonneEvent(arr[1]);
 }
 function bindLogoutEvent() {
 $('#Logout').click(function(){
@@ -46,7 +49,7 @@ function logout(){
 function bindPassPageAmisEvent(username){
      console.log("bindPassPageAmisEvent:"+username);
     $('#mes_amis').click(function(){
-       alert("mes_amis");
+       alert('mes_aime'+username);
        pageAmis(username);
        return false;
     });
@@ -61,9 +64,66 @@ function pageAmis(username){
         type:'GET',
         url: rootURL +'/user/pageAmis/'+username,
         dataType: "json",
-        success :  function(d, textStatus, jqXHR){
-            alert(ok);
-        },
+        success :  function(data, textStatus, jqXHR){
+           $('#center_frame').html('<p></p>');
+           $('#main_contant').html('      <div class="center_frame">'+
+            '<h2>Mes abonnements</h2>'+
+             '<div class="box_2">'+ 
+                '<div id="List_Abonnement">'+
+                    '<div class="text">'+
+                         ' <table class="table-striped">'+
+                            ' <tr><th>Username</th></tr>'+ 
+                            '<div id="les_name"></div>'+
+                            ' </table>'+
+                        '</div> '+
+                 '</div>'+
+               '</div>'+
+            '</div>');
+            $.each(data,function(key, val){
+                 $("#les_name").prepend(renderItemAmis(val.id, val.username_ajout, val.date_ajout, val.user.username));
+               });
+           },
+        error : function(resultat, statut, erreur){
+             alert("not ok");
+             alert("status"+resultat.status); //affiche le code d erreur
+         }
+    });
+}
+//page abonne
+function bindPassPageAbonneEvent(username){
+     console.log("bindPassPageAmisEvent:"+username);
+    $('#mes_abonne').click(function(){
+       alert('mes_abonne'+username);
+       pageAbonne(username);
+       return false;
+    });
+}
+
+function pageAbonne(username){
+    console.log('pageAbonne');
+    $.ajax({
+        type:'GET',
+        url: rootURL +'/user/pageAbonne/'+username,
+        dataType: "json",
+        success :  function(data, textStatus, jqXHR){
+           $('#center_frame').html('<p></p>');
+           $('#main_contant').html('      <div class="center_frame">'+
+            '<h2>Mes abonnes</h2>'+
+                '<div class="box_2">'+ 
+                '<div id="List_Abonnement">'+
+                    '<div class="text">'+
+                         ' <table class="table-striped">'+
+                            ' <tr><th>Username</th></tr>'+ 
+                            '<div id="les_name"></div>'+
+                           ' </table>'+
+                        '</div> '+
+                 '</div>'+
+                 '</div>'+
+            '</div>');
+            $.each(data,function(key, val){
+                 $("#les_name").prepend(renderItemAmis(val.id, val.username_ajout, val.date_ajout, val.user.username));
+               });
+           },
         error : function(resultat, statut, erreur){
              alert("not ok");
              alert("status"+resultat.status); //affiche le code d erreur
@@ -203,7 +263,9 @@ function removeLoadMore()
 
                         //<a class='button blue delete' href='http://localhost:9000/Tweety/resources/Tweet"+id+"'>Supprimer</a>\n\
     }
-    
+    function renderItemAmis(id,username_ajout,date_ajout,usernameConnect){
+        return    ' <tr><td>'+username_ajout+'</td></tr>';       		    
+    }
      
 $().ready(function(){
  bindEventsOnReady();

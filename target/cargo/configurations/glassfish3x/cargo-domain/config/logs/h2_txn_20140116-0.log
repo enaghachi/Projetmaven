@@ -1,0 +1,13 @@
+txn[1003], 21:55:06.917, insert into utilisateur (username, email, password, sexe, date_inscription) values (?,?,?,?,?) 
+txn[1003], 21:55:06.924, Binding Insert [utilisateur]  set[username=test, email=t@t.com, password=202cb962ac59075b964b07152d234b70, sexe=male, date_inscription=Thu Jan 16 21:55:04 CET 2014, ] 
+txn[1003], 21:55:06.927, Inserted [Utilisateur] [test] 
+txn[1004], 21:55:13.959, select t0.username c0, t0.email c1, t0.password c2, t0.sexe c3, t0.date_inscription c4  from utilisateur t0  where t0.username = ?  and t0.password = ?  
+txn[1004], 21:55:13.972, FindMany type[Utilisateur] origin[Dzt5Kn.0FzGH.BvQztc] exeMicros[13161] rows[1] name[] predicates[t0.username = ?  and t0.password = ? ] bind[test, 202cb962ac59075b964b07152d234b70] 
+txn[1005], 21:55:16.750, select t0.id c0, t0.datepublication c1, t0.label c2, t0.sujet c3, t0.taguser c4, t0.user_username c5  from tweet t0  order by t0.datepublication  limit 6 
+txn[1005], 21:55:16.753, FindMany type[Tweet] origin[BTt8wL.B98G8Z.BvQztc] exeMicros[3394] rows[0] name[] predicates[] bind[] 
+txn[1006], 21:55:20.172, select t0.id c0, t0.username_ajout c1, t0.date_ajout c2, t0.Proprio_username c3  from abonnement t0  where Proprio_username = ?  
+txn[1006], 21:55:20.173, FindMany type[Abonnement] origin[Be8hPv.arEeD.BvQztc] exeMicros[679] rows[0] name[] predicates[Proprio_username = ? ] bind[test] 
+txn[1007], 21:55:24.551, select t0.id c0, t0.username_ajout c1, t0.date_ajout c2, t0.Proprio_username c3  from abonnement t0  where t0.username_ajout = ?  
+txn[1007], 21:55:24.551, FindMany type[Abonnement] origin[C7Skic.arEeD.BvQztc] exeMicros[295] rows[0] name[] predicates[t0.username_ajout = ? ] bind[test] 
+txn[1008], 21:55:58.872, select t0.id c0, t0.username_ajout c1, t0.date_ajout c2, t0.Proprio_username c3  from abonnement t0  where t0.username_ajout = ?  
+txn[1008], 21:55:58.872, FindMany type[Abonnement] origin[C7Skic.arEeD.BvQztc] exeMicros[320] rows[0] name[] predicates[t0.username_ajout = ? ] bind[test] 

@@ -418,7 +418,7 @@
     </config>
   </configs>
   <property name="administrative.domain.name" value="cargo-domain"></property>
-  <secure-admin special-admin-indicator="a7b4926c-5b4f-4020-9b9c-d4667b93e02a">
+  <secure-admin special-admin-indicator="1fceb884-9fba-4037-b5b5-329de7b51ffb">
     <secure-admin-principal dn="CN=KLEROF3LKK0HZQG,OU=GlassFish,O=Oracle Corporation,L=Santa Clara,ST=California,C=US"></secure-admin-principal>
     <secure-admin-principal dn="CN=KLEROF3LKK0HZQG-instance,OU=GlassFish,O=Oracle Corporation,L=Santa Clara,ST=California,C=US"></secure-admin-principal>
   </secure-admin>

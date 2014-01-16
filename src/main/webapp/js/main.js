@@ -118,7 +118,7 @@ function login(username,password){
                
                  error: function(jqXHR, textStatus, errorThrown){
                      
-                     alert("status&&&&&"+jqXHR.status); //affiche le code d erreur
+                     alert("status"+jqXHR.status); //affiche le code d erreur
                      
                         //remplace le contenu de la div  
                         $('#resultat').html('</br><h4>oups! username ou mot de passe incorrecte! Essaye encore une fois </h4> </br>');

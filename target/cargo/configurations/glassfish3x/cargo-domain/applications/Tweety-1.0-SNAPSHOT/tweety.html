@@ -72,11 +72,11 @@ and open the template in the editor.
      <!--Logo And Navigation Start Here-->
       <div class="logo"></div>
       <ul id="navigation">
-        <li><a href="journal.html)"><span>HOME</span></a></li>
-       <li><a href="#"><span>Ma page</span></a></li>
-        <li><a><button class="button gray medium" value="publier" id="mes_amis">Mes amis</button></a></li>
-        <li><a href="#"><span>Mes Abonnes</span></a></li>
-        <li><a href="contact.html"><span>Contact</span></a></li>
+        <li><button ><span>HOME</span></button></li>
+       <li><button ><span>Ma page</span></button></li>
+        <li><button  id="mes_amis"><span>Mes amis</span></button></li>
+        <li><button id="mes_abonne"><span>Mes Abonnes</span></button></li>
+        <li><button id="nous_contact"><span>Contact</span></button></li>
      </ul>
      <!--Logo And Navigation End Here--> 
      <!--slider here-->
@@ -85,9 +85,11 @@ and open the template in the editor.
       <div id="infoPerson"> 
       <table>
            <script language="JavaScript" type="text/javascript"> 
+               
                 var strCookie=document.cookie; 
-                alert(strCookie); 
-                document.write('<tr><td id="name_bien">Bienvenu '+ strCookie+'</td></tr>');
+                var arr=strCookie.split("="); 
+                 alert(arr[1]);
+                document.write('<tr><td id="name_bien">Bienvenu '+ arr[1]+'</td></tr>');
             </script> 
       
       </table>
@@ -117,14 +119,14 @@ and open the template in the editor.
                 <form method="post" id="form-addTweet">
                    <tr>
                            <td colspan="2" align="center">
-                           <textarea cols="50" rows="8" id="areaTweet" name="areaTweet" placeholder="écrire un nouveau Tweet"></textarea>
+                           <textarea cols="50" rows="5" id="areaTweet" name="areaTweet" placeholder="écrire un nouveau Tweet"></textarea>
                            </td>
                    </tr>
                    <tr>
                             <script language="JavaScript" type="text/javascript"> 
                                  var strCookie=document.cookie; 
-                                 alert(strCookie); 
-                                 document.write('<td><input type="hidden" name="usernameonline" id="usernameonline" value="'+strCookie+'"> </td>');
+                                 var arr=strCookie.split("="); 
+                                 document.write('<td><input type="hidden" name="usernameonline" id="usernameonline" value="'+arr[1]+'"> </td>');
                              </script> 
                             <td align="right" ><button class="button gray medium" value="publier" id="publier_button">Publier</button></td>
                    </tr>	

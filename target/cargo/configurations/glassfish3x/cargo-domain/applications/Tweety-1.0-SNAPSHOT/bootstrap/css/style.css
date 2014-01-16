@@ -268,7 +268,7 @@ height:19px;
 	float:left;
 	margin-left:5px;
 }
-#navigation li a {
+#navigation li button {
 	float:left;
 	background-image:url(../img/menu_left.png);
 	background-position: left top;
@@ -278,7 +278,7 @@ height:19px;
 	position: relative;
 	z-index: 9999;
 }
-#navigation a span {
+#navigation button span {
 	float:left;
 	padding:0px 20px 0px 0px;
 	line-height:46px;
@@ -287,19 +287,19 @@ height:19px;
 	background-position:right top;
 	background-repeat:no-repeat;
 }
-#navigation a span em {
+#navigation button span em {
 	float:right;
 	background-image:url(../img/menu_dropdown.png);
 	background-position:right center;
 	width:20px;
 	background-repeat:no-repeat;
 }
-#navigation li a:hover {
+#navigation li button:hover {
 	background-image:url(../img/menu_left_hover.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 }
-#navigation li a:hover span {
+#navigation li button:hover span {
 	background-image:url(../img/menu_right_hover.png);
 	background-position:right top;
 	background-repeat:no-repeat;
